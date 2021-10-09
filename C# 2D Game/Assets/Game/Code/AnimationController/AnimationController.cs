@@ -20,18 +20,6 @@ namespace Game
                 _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, true);
                 _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, false);
                 _playerView.transform.localScale = new Vector3(_inputManager.Horizontal < 0 ? -1 : 1,1,1);
-                /*if (_inputManager.Horizontal > 0)
-                {
-                    _playerView.transform.localScale = new Vector3(1, 1, 1);
-                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, true);
-                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, false);
-                }
-                else if (_inputManager.Horizontal < 0)
-                {
-                    _playerView.transform.localScale = new Vector3(-1, 1, 1);
-                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, true);
-                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, false);
-                }*/
             }
             else
             {
