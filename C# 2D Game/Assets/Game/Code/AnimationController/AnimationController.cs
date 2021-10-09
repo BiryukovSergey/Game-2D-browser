@@ -7,8 +7,6 @@ namespace Game
         private InputManager _inputManager;
         private PlayerView _playerView;
 
-        private AnimationConstanceName _constanceName = new AnimationConstanceName();
-
         public AnimationController(InputManager inputManager, PlayerView playerView)
         {
             _inputManager = inputManager;
@@ -19,35 +17,38 @@ namespace Game
         {
             if (_inputManager.Horizontal != 0)
             {
-                if (_inputManager.Horizontal > 0)
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, true);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, false);
+                _playerView.transform.localScale = new Vector3(_inputManager.Horizontal < 0 ? -1 : 1,1,1);
+                /*if (_inputManager.Horizontal > 0)
                 {
                     _playerView.transform.localScale = new Vector3(1, 1, 1);
-                    _playerView.PlayerAnimation.SetBool(_constanceName.Run, true);
-                    _playerView.PlayerAnimation.SetBool(_constanceName.Idle, false);
+                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, true);
+                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, false);
                 }
                 else if (_inputManager.Horizontal < 0)
                 {
                     _playerView.transform.localScale = new Vector3(-1, 1, 1);
-                    _playerView.PlayerAnimation.SetBool(_constanceName.Run, true);
-                    _playerView.PlayerAnimation.SetBool(_constanceName.Idle, false);
-                }
+                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, true);
+                    _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, false);
+                }*/
             }
             else
             {
-                _playerView.PlayerAnimation.SetBool(_constanceName.Idle, true);
-                _playerView.PlayerAnimation.SetBool(_constanceName.Run, false);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, true);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, false);
             }
 
             if (_inputManager.Jump > 0)
             {
-                _playerView.PlayerAnimation.SetBool(_constanceName.Jump, true);
-                _playerView.PlayerAnimation.SetBool(_constanceName.Run, false);
-                _playerView.PlayerAnimation.SetBool(_constanceName.Idle, false);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Jump, true);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Run, false);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, false);
             }
             else if (_inputManager.Jump == 0)
             {
-                _playerView.PlayerAnimation.SetBool(_constanceName.Jump, false);
-                _playerView.PlayerAnimation.SetBool(_constanceName.Idle, true);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Jump, false);
+                _playerView.PlayerAnimation.SetBool(AnimationConstanceName.Idle, true);
             }
         }
     }

@@ -1,9 +1,9 @@
 ﻿namespace Game
 {
-    public class AnimationConstanceName
+    public static class AnimationConstanceName
     {
-        public string Idle = "Idle";
-        public string Run = "Run";
-        public string Jump = "Jump";
+        public static string Idle = "Idle";
+        public static string Run = "Run";
+        public static string Jump = "Jump";
     }
 }

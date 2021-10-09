@@ -1,17 +1,17 @@
-﻿
-using UnityEngine;
-
-public class InputManager
+﻿namespace Game
 {
-    public float Horizontal;
-    public float Jump;
+    using UnityEngine;
 
-    private ConstanceName _constanteName = new ConstanceName();
-
-    public void Execute()
+    public class InputManager
     {
-        Horizontal = Input.GetAxis(_constanteName.Horizontal);
-        Jump = Input.GetAxis(_constanteName.Jump);
+        public float Horizontal { get; private set; }
+        public float Jump { get; private set; }
+
+
+        public void Execute()
+        {
+            Horizontal = Input.GetAxis(ConstanceName.Horizontal);
+            Jump = Input.GetAxis(ConstanceName.Jump);
+        }
     }
 }
-

@@ -1,21 +1,23 @@
 ﻿using UnityEngine;
-using Game;
 
-public class Main : MonoBehaviour
+namespace Game
 {
-    [SerializeField] private PlayerView _playerView;
-    private InputManager _inputManager;
-    private AnimationController _animationController;
-
-    private void Start()
+    public class Main : MonoBehaviour
     {
-        _inputManager = new InputManager();
-        _animationController = new AnimationController(_inputManager, _playerView);
-    }
+        [SerializeField] private PlayerView _playerView;
+        private InputManager _inputManager;
+        private AnimationController _animationController;
 
-    private void Update()
-    {
-        _inputManager.Execute();
-        _animationController.Update();
+        private void Start()
+        {
+            _inputManager = new InputManager();
+            _animationController = new AnimationController(_inputManager, _playerView);
+        }
+
+        private void Update()
+        {
+            _inputManager.Execute();
+            _animationController.Update();
+        }
     }
 }

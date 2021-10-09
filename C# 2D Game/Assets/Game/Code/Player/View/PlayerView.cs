@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
-
 namespace Game
 {
     public class PlayerView : MonoBehaviour
     {
-        public Animator PlayerAnimation;
+        [SerializeField]private Animator _playerAnimation;
+        public Animator PlayerAnimation => _playerAnimation;
 
     }
 }
