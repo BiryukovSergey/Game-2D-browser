@@ -10,8 +10,8 @@
 
         public void Execute()
         {
-            Horizontal = Input.GetAxis(ConstanceName.Horizontal);
-            Jump = Input.GetAxis(ConstanceName.Jump);
+            Horizontal = Input.GetAxis(InputName.Horizontal);
+            Jump = Input.GetAxis(InputName.Jump);
         }
     }
 }
