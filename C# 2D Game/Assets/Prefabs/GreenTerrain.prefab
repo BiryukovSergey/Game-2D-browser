@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4834694529267731390}
   - component: {fileID: 4834694529267731389}
   m_Layer: 0
-  m_Name: Terrain (16x16)_7
+  m_Name: GreenTerrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 2
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0

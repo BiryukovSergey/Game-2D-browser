@@ -5,7 +5,7 @@ namespace Game.Code.SpawnBullet
     public class BulletShoot
     {
         private SpawnBullet _spawnBulletView;
-        public float SpeedBullet = 3.0f;
+        public float SpeedBullet = 2.0f;
         
         public BulletShoot(SpawnBullet spawnBulletView)
         {
