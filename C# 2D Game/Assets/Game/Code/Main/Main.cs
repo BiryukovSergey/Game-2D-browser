@@ -1,7 +1,7 @@
-﻿using System;
-using DefaultNamespace;
+﻿using Game.Code.Contacts;
 using Game.Code.Enemy.Controller;
 using Game.Code.Player.PlayerMovement;
+using Game.Code.Player.PlayerMovement.Phycics;
 using Game.Code.Player.PlayerMovement.PlayerMove;
 using Game.Code.SpawnBullet;
 using UnityEngine;
@@ -15,36 +15,41 @@ namespace Game
         [SerializeField] private EnemyView _enemyView;
         [SerializeField] private SpawnBulletView _spawnBulletView;
         [SerializeField] private GameObject _bulletGameObject;
+        [SerializeField] private Rigidbody2D _playerRigitBody;
+        [SerializeField] private float _forceShoot;
         
         
         private PlayerMovementWalk _playerMovementWalk;
-        private PlayerMovementJump _playerMovementJump;
         private InputManager _inputManager;
         
         private AnimationController _animationController;
         private EnemyController _enemyController;
         private SpawnBullet _spawnBullet;
         private BulletShoot _bulletShoot;
+        private PlayerJump _playerJump;
+        private Contacts _contacts;
 
         private void Start()
         {
             _inputManager = new InputManager();
+            _contacts = new Contacts(_playerView.PlayerPolygonCollider);
+            _bulletShoot = new BulletShoot(_forceShoot);
+            _spawnBullet = new SpawnBullet(_bulletGameObject,_spawnBulletView, _bulletShoot);
             _animationController = new AnimationController(_inputManager, _playerView);
-            _playerMovementWalk = new PlayerMovementWalk(_playerMovementData, _playerView,_inputManager);
-            _playerMovementJump = new PlayerMovementJump(_playerView, _playerMovementData,_inputManager);
+            _playerMovementWalk = new PlayerMovementWalk(_playerMovementData, _playerView,_inputManager,_playerRigitBody,_contacts);
+            _playerJump = new PlayerJump(_playerView, _playerRigitBody, 4, _inputManager,_contacts);
             _enemyController = new EnemyController(_playerView,_enemyView);
-            _spawnBullet = new SpawnBullet(_bulletGameObject,_spawnBulletView);
-            _bulletShoot = new BulletShoot(_spawnBullet);
         }
 
         private void Update()
         {
             _inputManager.Execute();
             _animationController.Update();
-            _playerMovementJump.Execute();
             _enemyController.Execute();
             _spawnBullet.Execute();
-            _bulletShoot.Execute();
+            //_bulletShoot.Execute();
+            _playerJump.Execute();
+            _contacts.Execute();
         }
 
         private void FixedUpdate()
