@@ -293,6 +293,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &479366284 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6391001154980872732, guid: c5854e840b2e32b4b87efd1da5a3cfff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1302513914}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7153203e8e6744d3b805552c82cdf342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,8 +726,11 @@ MonoBehaviour:
   _playerRigitBody: {fileID: 1790626295}
   _forceShoot: 6.5
   _levelObejctView: {fileID: 1918043189105817}
+  _levelObejctViewsList:
+  - {fileID: 479366284}
+  - {fileID: 1918043189105817}
   _deadZone:
-  - {fileID: 1420151139}
+  - {fileID: 0}
   _winZone: []
 --- !u!4 &734984885
 Transform:
@@ -1273,7 +1288,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1420151136}
-  - component: {fileID: 1420151139}
   - component: {fileID: 1420151138}
   - component: {fileID: 1420151137}
   m_Layer: 0
@@ -1346,22 +1360,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1420151139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420151135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7153203e8e6744d3b805552c82cdf342, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteRenderer: {fileID: 1250627693}
-  _transform: {fileID: 1420151136}
-  _collider2D: {fileID: 1420151137}
-  _rigidbody2D: {fileID: 1420151138}
 --- !u!1 &1455888690
 GameObject:
   m_ObjectHideFlags: 0

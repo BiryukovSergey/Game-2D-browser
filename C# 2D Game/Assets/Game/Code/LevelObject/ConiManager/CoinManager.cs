@@ -13,13 +13,11 @@ namespace Game.Code.LevelObject.ConiManager
         {
             _characterView = levelObejctView;
             _coinViews = coinViews;
-            var a = GameObject.FindObjectsOfType<LevelObejctView>();
-            for (int i = 0; i < a.Length; i++)
+            _coinViews.Add(levelObejctView);
+            foreach (var item in _coinViews)
             {
-                _coinViews.Add(a[i]);
+                item.OnLevelObjectContact += OnLevelObjectContact;
             }
-            //_coinViews.Add(levelObejctView);
-            _characterView.OnLevelObjectContact += OnLevelObjectContact;
         }
 
         public void OnLevelObjectContact(LevelObejctView contactView)
@@ -32,7 +30,11 @@ namespace Game.Code.LevelObject.ConiManager
 
         public void Dispose()
         {
-            _characterView.OnLevelObjectContact -= OnLevelObjectContact;
+            foreach (var item in _coinViews)
+            {
+                item.OnLevelObjectContact -= OnLevelObjectContact;
+            }
+           // _characterView.OnLevelObjectContact -= OnLevelObjectContact;
         }
     }
 }

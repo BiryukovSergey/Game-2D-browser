@@ -33,8 +33,8 @@ namespace Game
         private PlayerJump _playerJump;
         private Contacts _contacts;
         private CoinManager _coinManager;
-        private List<LevelObejctView> _levelObejctViewsList;
         private LevelCompleteManager _levelCompleteManager;
+        public List<LevelObejctView> _levelObejctViewsList;
         public List<LevelObejctView> _deadZone;
         public List<LevelObejctView> _winZone;
 
@@ -49,9 +49,9 @@ namespace Game
                 _playerRigitBody, _contacts);
             _playerJump = new PlayerJump(_playerView, _playerRigitBody, 4, _inputManager, _contacts);
             _enemyController = new EnemyController(_playerView, _enemyView);
-            _levelObejctViewsList = new List<LevelObejctView>();
+            /*_levelObejctViewsList = new List<LevelObejctView>();*/
             _coinManager = new CoinManager(_levelObejctView, _levelObejctViewsList);
-            _levelCompleteManager = new LevelCompleteManager(_levelObejctView, _deadZone, _winZone);
+            //_levelCompleteManager = new LevelCompleteManager(_levelObejctView, _deadZone, _winZone);
         }
 
         private void Update()
