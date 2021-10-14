@@ -33,7 +33,10 @@ namespace Game
         private PlayerJump _playerJump;
         private Contacts _contacts;
         private CoinManager _coinManager;
-        private List<LevelObejctView> _levelObejctViews;
+        private List<LevelObejctView> _levelObejctViewsList;
+        private LevelCompleteManager _levelCompleteManager;
+        public List<LevelObejctView> _deadZone;
+        public List<LevelObejctView> _winZone;
 
         private void Start()
         {
@@ -42,11 +45,13 @@ namespace Game
             _bulletShoot = new BulletShoot(_forceShoot);
             _spawnBullet = new SpawnBullet(_bulletGameObject, _spawnBulletView, _bulletShoot);
             _animationController = new AnimationController(_inputManager, _playerView);
-            _playerMovementWalk = new PlayerMovementWalk(_playerMovementData, _playerView, _inputManager, _playerRigitBody, _contacts);
+            _playerMovementWalk = new PlayerMovementWalk(_playerMovementData, _playerView, _inputManager,
+                _playerRigitBody, _contacts);
             _playerJump = new PlayerJump(_playerView, _playerRigitBody, 4, _inputManager, _contacts);
             _enemyController = new EnemyController(_playerView, _enemyView);
-            _levelObejctViews = new List<LevelObejctView>();
-            _coinManager = new CoinManager(_levelObejctView, _levelObejctViews);
+            _levelObejctViewsList = new List<LevelObejctView>();
+            _coinManager = new CoinManager(_levelObejctView, _levelObejctViewsList);
+            _levelCompleteManager = new LevelCompleteManager(_levelObejctView, _deadZone, _winZone);
         }
 
         private void Update()
