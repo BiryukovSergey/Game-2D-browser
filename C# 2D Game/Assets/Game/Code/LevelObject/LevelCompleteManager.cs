@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace Game.Code.LevelObject
 {
-    public class LevelCompleteManager //:IDisposable
-    {/*
+    public class LevelCompleteManager :IDisposable
+    {
         private Vector3 _start;
         private LevelObejctView _levelObejctView;
         private PlayerView _playerView;
@@ -32,6 +32,6 @@ namespace Game.Code.LevelObject
         public void Dispose()
         {
             _levelObejctView.OnLevelObjectContact -= OnLevelObjectContact;
-        }*/
+        }
     }
 }
