@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game.Code.LevelObject
 {
-    public class LevelCompleteManager :IDisposable
+    public class LevelCompleteManager : IDisposable
     {
         private Vector3 _start;
         private LevelObejctView _levelObejctView;
@@ -12,14 +12,15 @@ namespace Game.Code.LevelObject
         private List<LevelObejctView> _deadZone;
         private List<LevelObejctView> _winZone;
 
-
-        public LevelCompleteManager(LevelObejctView levelObejctView, List<LevelObejctView> levelObejctViews_dead, List<LevelObejctView> levelObejctViews_wins)
+        public LevelCompleteManager(LevelObejctView levelObejctView, List<LevelObejctView> levelObejctViews_dead,
+            List<LevelObejctView> levelObejctViews_wins)
         {
             _start = levelObejctView.transform.position;
             _levelObejctView = levelObejctView;
             _deadZone = levelObejctViews_dead;
             _winZone = levelObejctViews_wins;
         }
+
 
         private void OnLevelObjectContact(LevelObejctView obejctView)
         {
@@ -28,7 +29,7 @@ namespace Game.Code.LevelObject
                 _levelObejctView.transform.position = _start;
             }
         }
-        
+
         public void Dispose()
         {
             _levelObejctView.OnLevelObjectContact -= OnLevelObjectContact;

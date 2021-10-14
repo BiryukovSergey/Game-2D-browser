@@ -293,18 +293,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &479366284 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6391001154980872732, guid: c5854e840b2e32b4b87efd1da5a3cfff,
-    type: 3}
-  m_PrefabInstance: {fileID: 1302513914}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7153203e8e6744d3b805552c82cdf342, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,11 +714,7 @@ MonoBehaviour:
   _playerRigitBody: {fileID: 1790626295}
   _forceShoot: 5
   _levelObejctView: {fileID: 1918043189105817}
-  _levelObejctViewsList:
-  - {fileID: 479366284}
-  - {fileID: 1918043189105817}
-  _deadZone:
-  - {fileID: 0}
+  _deadZone: []
   _winZone: []
 --- !u!4 &734984885
 Transform:
@@ -1912,6 +1896,7 @@ MonoBehaviour:
   _playerAnimation: {fileID: 1790626293}
   _playerRigidbody: {fileID: 1790626295}
   _plauerCollider2D: {fileID: 1790626296}
+  _levelObejctView: {fileID: 1918043189105817}
 --- !u!95 &1790626293
 Animator:
   serializedVersion: 3
@@ -2356,7 +2341,7 @@ PrefabInstance:
     - target: {fileID: 9187001111979004308, guid: f4cc528fba5092c4f8158fe09615e3cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.57
+      value: 3.17
       objectReference: {fileID: 0}
     - target: {fileID: 9187001111979004308, guid: f4cc528fba5092c4f8158fe09615e3cc,
         type: 3}
