@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Game.Code.Contacts;
+using Game.Code.Dead;
 using Game.Code.Enemy.Controller;
 using Game.Code.LevelObject;
 using Game.Code.LevelObject.ConiManager;
@@ -21,6 +22,7 @@ namespace Game
         [SerializeField] private Rigidbody2D _playerRigitBody;
         [SerializeField] private float _forceShoot;
         [SerializeField] private LevelObejctView _levelObejctView;
+        [SerializeField] private PlayerDeadView _playerDeadView;
 
 
         private PlayerMovementWalk _playerMovementWalk;
@@ -33,7 +35,8 @@ namespace Game
         private PlayerJump _playerJump;
         private Contacts _contacts;
         private CoinManager _coinManager;
-        private LevelCompleteManager _levelCompleteManager;
+        private PlayerDeadController _playerDeadController;
+        
         private List<LevelObejctView> _levelObejctViewsList;
         public List<LevelObejctView> _deadZone;
         public List<LevelObejctView> _winZone;
@@ -56,7 +59,8 @@ namespace Game
                 _levelObejctViewsList.Add(a[i]);
             }
             _coinManager = new CoinManager(_levelObejctView, _levelObejctViewsList);
-            _levelCompleteManager = new LevelCompleteManager(_levelObejctView, _deadZone, _winZone);
+            _playerDeadController = new PlayerDeadController(_playerDeadView);
+            //_levelCompleteManager = new LevelCompleteManager(_start,_levelObejctView, _deadZone, _winZone);
         }
 
         private void Update()

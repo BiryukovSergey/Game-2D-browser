@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace Game.Code.SpawnBullet
 {
@@ -8,10 +9,11 @@ namespace Game.Code.SpawnBullet
         private GameObject _prefab;
         private SpawnBulletView _spawnBulletView;
         private float _time = 0.0f;
-        private float _timeLife = 2.0f;
+        private float _timeLife = 5.0f;
         private int _index = 0;
         private Rigidbody2D _rigidbody2D;
         private BulletShoot _shoot;
+        
         
 
 
@@ -39,6 +41,7 @@ namespace Game.Code.SpawnBullet
 
         private void SpawnBullets()
         {
+            
             if(_index == _bulletPull.Length) _index = 0;
 
             var transform = _spawnBulletView.transform;
@@ -48,10 +51,10 @@ namespace Game.Code.SpawnBullet
             _shoot.Shoot(Bullets[_index].GetComponent<Rigidbody2D>());
             _index++;
         }
+
         public void Execute()
         {
             _time += Time.deltaTime;
-            
             if (_time >= _timeLife)
             {
                 SpawnBullets();

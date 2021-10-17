@@ -9,13 +9,14 @@ namespace Game.Code.LevelObject.ConiManager
         private LevelObejctView _characterView;
         private List<LevelObejctView> _coinViews;
         private PlayerView _playerView;
+
         public CoinManager(LevelObejctView levelObejctView, List<LevelObejctView> coinViews)
         {
             _characterView = levelObejctView;
             _coinViews = coinViews;
             foreach (var item in _coinViews)
             {
-                item.OnLevelObjectContact += OnLevelObjectContact; 
+                item.OnLevelObjectContact += OnLevelObjectContact;
             }
         }
 
