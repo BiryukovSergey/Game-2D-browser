@@ -16,8 +16,8 @@ namespace Game.Code.Dead
         public PlayerDeadController(PlayerDeadView playerDeadView)
         {
             _dead = playerDeadView.DeadZone;
-            _start = new Vector3(playerDeadView.PlayerStartPosition.position.x,
-                playerDeadView.PlayerStartPosition.position.y, 0);
+            var position = playerDeadView.PlayerStartPosition.position;
+            _start = new Vector3(position.x, position.y, 0);
             _deadCollaider = playerDeadView.DeadZoneCollider2D;
             _deadListView = new List<PlayerDeadView>();
             _deadListView.Add(playerDeadView);

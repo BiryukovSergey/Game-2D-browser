@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Game.Code.Camera;
 using Game.Code.Contacts;
 using Game.Code.Dead;
 using Game.Code.Enemy.Controller;
@@ -23,8 +24,10 @@ namespace Game
         [SerializeField] private float _forceShoot;
         [SerializeField] private LevelObejctView _levelObejctView;
         [SerializeField] private PlayerDeadView _playerDeadView;
+        [SerializeField] private CameraView _cameraView;
 
 
+        private CameraController _cameraController;
         private PlayerMovementWalk _playerMovementWalk;
         private InputManager _inputManager;
 
@@ -36,13 +39,16 @@ namespace Game
         private Contacts _contacts;
         private CoinManager _coinManager;
         private PlayerDeadController _playerDeadController;
+
         
         private List<LevelObejctView> _levelObejctViewsList;
-        public List<LevelObejctView> _deadZone;
-        public List<LevelObejctView> _winZone;
+        //public List<LevelObejctView> _deadZone;
+        //public List<LevelObejctView> _winZone;
 
         private void Start()
         {
+            
+            _cameraController = new CameraController(_cameraView); 
             _inputManager = new InputManager();
             _contacts = new Contacts(_playerView.PlayerPolygonCollider);
             _bulletShoot = new BulletShoot(_forceShoot);
@@ -60,11 +66,11 @@ namespace Game
             }
             _coinManager = new CoinManager(_levelObejctView, _levelObejctViewsList);
             _playerDeadController = new PlayerDeadController(_playerDeadView);
-            //_levelCompleteManager = new LevelCompleteManager(_start,_levelObejctView, _deadZone, _winZone);
         }
 
         private void Update()
         {
+            _cameraController.MoveCamera();
             _inputManager.Execute();
             _animationController.Update();
             _enemyController.Execute();
