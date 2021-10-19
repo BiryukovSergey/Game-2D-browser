@@ -25,6 +25,7 @@ namespace Game
         [SerializeField] private LevelObejctView _levelObejctView;
         [SerializeField] private PlayerDeadView _playerDeadView;
         [SerializeField] private CameraView _cameraView;
+        [SerializeField] private float _jumpForce;
 
 
         private CameraController _cameraController;
@@ -56,7 +57,7 @@ namespace Game
             _animationController = new AnimationController(_inputManager, _playerView);
             _playerMovementWalk = new PlayerMovementWalk(_playerMovementData, _playerView, _inputManager,
                 _playerRigitBody, _contacts);
-            _playerJump = new PlayerJump(_playerView, _playerRigitBody, 4, _inputManager, _contacts);
+            _playerJump = new PlayerJump(_playerView, _playerRigitBody, _jumpForce, _inputManager, _contacts);
             _enemyController = new EnemyController(_playerView, _enemyView);
             _levelObejctViewsList = new List<LevelObejctView>();
             var a = FindObjectsOfType<LevelObejctView>();

@@ -21,7 +21,7 @@ namespace Game.Code.Player.PlayerMovement.PlayerMove
 
         public void FixedExecute()
         {
-            Debug.Log($"{_contacts._normalLeft}/{_contacts._normalRight}");
+            Debug.Log($"{_contacts._normalLeft}/{_contacts._normalRight}/{_contacts._contactsCollaidersArray[0]}");
 
             if (_inputManager.Horizontal != 0 && _contacts._normalLeft == false && _contacts._normalRight == false)
             {

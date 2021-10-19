@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Movement data Player
   m_EditorClassIdentifier: 
   _PlayerSpeed: 50
-  _jumpForce: 3
+  _jumpForce: 50
   _g: -9.8

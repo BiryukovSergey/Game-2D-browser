@@ -4,8 +4,8 @@ namespace Game.Code.Contacts
 {
     public class Contacts
     {
-        private Collider2D _collider;
-        private ContactPoint2D[] _contactsCollaidersArray;
+        public Collider2D _collider;
+        public ContactPoint2D[] _contactsCollaidersArray;
         private int _countIndex;
         public bool _normalRight;
         public bool _normalLeft;
