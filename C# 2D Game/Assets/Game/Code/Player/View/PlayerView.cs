@@ -9,9 +9,9 @@ namespace Game
         [SerializeField] private Rigidbody2D _playerRigidbody;
         [SerializeField] private Collider2D _plauerCollider2D;
         [SerializeField]private LevelObejctView _levelObejctView;
-        public Rigidbody2D PlayerRigitBody
-        {
-            get => _playerRigidbody;
+        public Rigidbody2D PlayerRigitBody 
+        { 
+            get => _playerRigidbody; 
             set => _playerRigidbody = value;
         }
         public Animator PlayerAnimation => _playerAnimation;
