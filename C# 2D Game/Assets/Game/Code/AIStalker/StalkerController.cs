@@ -28,7 +28,7 @@ namespace Game.Code.AIStalker
 
         public void RecalculatePath()
         {
-            if(_seeker.IsDone())
+            if (_seeker.IsDone())
             {
                 _seeker.StartPath(_enemyView._rigidbody2D.position, _player.position, OnPathComplete);
             }
@@ -36,7 +36,7 @@ namespace Game.Code.AIStalker
 
         private void OnPathComplete(Path p)
         {
-            if(p.error) return;
+            if (p.error) return;
             _stalkerModel.UpdatePath(p);
         }
     }

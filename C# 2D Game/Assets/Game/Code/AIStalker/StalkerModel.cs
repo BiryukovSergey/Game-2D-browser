@@ -19,6 +19,7 @@ namespace Game.Code.AIStalker
             _path = p;
             _currentPointIndex = 0;
         }
+
         public Vector2 CalculateVelocity(Vector2 position)
         {
             if (_path == null) return Vector2.zero;
@@ -29,6 +30,7 @@ namespace Game.Code.AIStalker
             ChangeIndex(position);
             return result;
         }
+
         private void ChangeIndex(Vector2 position)
         {
             var sqrtDistance = Vector2.SqrMagnitude((Vector2)_path.vectorPath[_currentPointIndex] - position);
