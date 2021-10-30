@@ -9,6 +9,7 @@ using Game.Code.Player.PlayerMovement;
 using Game.Code.Player.PlayerMovement.Phycics;
 using Game.Code.Player.PlayerMovement.PlayerMove;
 using Game.Code.SpawnBullet;
+using Game.Code.СollectingСoins;
 using UnityEngine;
 
 namespace Game
@@ -26,6 +27,7 @@ namespace Game
         [SerializeField] private PlayerDeadView _playerDeadView;
         [SerializeField] private CameraView _cameraView;
         [SerializeField] private float _jumpForce;
+        [SerializeField] private СollectingСoinsView _сollectingСoinsView;
 
 
         private CameraController _cameraController;
@@ -40,8 +42,9 @@ namespace Game
         private Contacts _contacts;
         private CoinManager _coinManager;
         private PlayerDeadController _playerDeadController;
+        private СollectingСoinsController _сollectingСoinsController;
 
-        
+
         private List<LevelObejctView> _levelObejctViewsList;
         //public List<LevelObejctView> _deadZone;
         //public List<LevelObejctView> _winZone;
@@ -67,6 +70,7 @@ namespace Game
             }
             _coinManager = new CoinManager(_levelObejctView, _levelObejctViewsList);
             _playerDeadController = new PlayerDeadController(_playerDeadView);
+            _сollectingСoinsController = new СollectingСoinsController(_сollectingСoinsView);
         }
 
         private void Update()
@@ -75,7 +79,7 @@ namespace Game
             _inputManager.Execute();
             _animationController.Update();
             _enemyController.Execute();
-            _spawnBullet.Execute();
+            //_spawnBullet.Execute();
             _playerJump.Execute();
             _contacts.Execute();
         }

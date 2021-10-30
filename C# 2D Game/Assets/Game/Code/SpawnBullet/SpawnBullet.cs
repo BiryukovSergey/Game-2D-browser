@@ -27,7 +27,7 @@ namespace Game.Code.SpawnBullet
             _prefab = gameObject;
             _spawnBulletView = spawnBulletView;
             _shoot = bulletShoot;
-            CreateBullet();
+            //CreateBullet();
         }
 
         private void CreateBullet()
