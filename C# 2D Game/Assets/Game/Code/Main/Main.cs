@@ -9,6 +9,7 @@ using Game.Code.ParalaxManager;
 using Game.Code.Player.PlayerMovement;
 using Game.Code.Player.PlayerMovement.Phycics;
 using Game.Code.Player.PlayerMovement.PlayerMove;
+using Game.Code.SawMovement;
 using Game.Code.SpawnBullet;
 using Game.Code.СollectingСoins;
 using UnityEngine;
@@ -30,8 +31,10 @@ namespace Game
         [SerializeField] private float _jumpForce;
         [SerializeField] private СollectingСoinsView _сollectingСoinsView;
         
+        [Header("Paralax")]
         [SerializeField] private Transform _camera;
         [SerializeField] private Transform _backPicture;
+        
 
 
         private CameraController _cameraController;
@@ -48,6 +51,7 @@ namespace Game
         private PlayerDeadController _playerDeadController;
         private СollectingСoinsController _сollectingСoinsController;
         private ParalaxController _paralaxController;
+        private SawMovementController _sawMovementController;
 
 
         private List<LevelObejctView> _levelObejctViewsList;
@@ -81,8 +85,6 @@ namespace Game
             {
                 _coinManager[i] = new CoinManager(_levelObejctView[i], _levelObejctViewsList);
             }
-           
-            
             
             _playerDeadController = new PlayerDeadController(_playerDeadView);
             _сollectingСoinsController = new СollectingСoinsController(_сollectingСoinsView);
