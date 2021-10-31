@@ -1,8 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
-
 public class GenerateLevelController
 {
     private int[,] _map;
@@ -28,7 +26,6 @@ public class GenerateLevelController
             {
                 var seed = Time.time.GetHashCode();
                 var psevdorand = new System.Random(seed);
-                //_map[x, y] = (psevdorand.Next(0, 100) < 70 ? 1 : 0);
                 _map[x, y] = Random.Range(0, 2);
             }
 
@@ -36,7 +33,7 @@ public class GenerateLevelController
         }
     }
 
-    public void DrawTileMap()
+    private void DrawTileMap()
     {
         if(_map == null) return;
 
