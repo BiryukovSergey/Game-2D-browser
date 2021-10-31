@@ -9,6 +9,7 @@ namespace Game.Code.LevelObject.ConiManager
         private LevelObejctView _characterView;
         private List<LevelObejctView> _coinViews;
         private PlayerView _playerView;
+        private float _speedCoinRotation = 4.0f;
 
         public CoinManager(LevelObejctView levelObejctView, List<LevelObejctView> coinViews)
         {
@@ -18,6 +19,11 @@ namespace Game.Code.LevelObject.ConiManager
             {
                 item.OnLevelObjectContact += OnLevelObjectContact;
             }
+        }
+
+        public void CoinRotation()
+        {
+            _characterView.transform.Rotate(Vector3.up* _speedCoinRotation);
         }
 
         public void OnLevelObjectContact(LevelObejctView contactView)

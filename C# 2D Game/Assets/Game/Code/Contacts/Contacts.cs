@@ -34,8 +34,8 @@ namespace Game.Code.Contacts
                 {
                     _normalLeft = true;
                 }
-
-                if (Mathf.Approximately(_contactsCollaidersArray[i].normal.y, -1))
+                //if (Mathf.Approximately(_contactsCollaidersArray[i].normal.y, -1))
+                if (Mathf.Approximately(_contactsCollaidersArray[i].normal.y, 1))
                 {
                     _normalDown = true;
                 }

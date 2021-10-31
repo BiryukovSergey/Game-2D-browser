@@ -69,6 +69,8 @@ namespace Game
                 _levelObejctViewsList.Add(a[i]);
             }
             _coinManager = new CoinManager(_levelObejctView, _levelObejctViewsList);
+            
+            
             _playerDeadController = new PlayerDeadController(_playerDeadView);
             _сollectingСoinsController = new СollectingСoinsController(_сollectingСoinsView);
         }
@@ -87,6 +89,7 @@ namespace Game
         private void FixedUpdate()
         {
             _playerMovementWalk.FixedExecute();
+            _coinManager.CoinRotation();
         }
     }
 }

@@ -17,18 +17,22 @@ namespace Game.Code.Player.PlayerMovement.Phycics
             _forceToJump = jumpForce;
             _inputManager = inputManager;
             _contacts = contacts;
-            _isJump = false;
+            //_isJump = false;
+            _isJump = true;
             
         }
 
         public void Jump()
         {
-            if (!_isJump && _inputManager.Jump > 0 && _playerView.PlayerRigitBody.velocity.y == 0 && _contacts._normalDown == false)
+            //if (!_isJump && _inputManager.Jump > 0 && _playerView.PlayerRigitBody.velocity.y == 0 && _contacts._normalDown == false)
+            if (_isJump && _inputManager.Jump > 0 && _playerView.PlayerRigitBody.velocity.y == 0 && _contacts._normalDown == true)
             {
                 _playerView.PlayerRigitBody.AddForce(Vector2.up * _forceToJump, ForceMode2D.Impulse);
-                _isJump = true;
+                //_isJump = true;
+                _isJump = false;
             }
-            _isJump = false;
+            //_isJump = false;
+            _isJump = true;
         }
         
         public void Execute()
