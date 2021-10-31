@@ -5,6 +5,7 @@ using Game.Code.Dead;
 using Game.Code.Enemy.Controller;
 using Game.Code.LevelObject;
 using Game.Code.LevelObject.ConiManager;
+using Game.Code.ParalaxManager;
 using Game.Code.Player.PlayerMovement;
 using Game.Code.Player.PlayerMovement.Phycics;
 using Game.Code.Player.PlayerMovement.PlayerMove;
@@ -23,11 +24,14 @@ namespace Game
         [SerializeField] private GameObject _bulletGameObject;
         [SerializeField] private Rigidbody2D _playerRigitBody;
         [SerializeField] private float _forceShoot;
-        [SerializeField] private LevelObejctView _levelObejctView;
+        [SerializeField] private LevelObejctView[] _levelObejctView;
         [SerializeField] private PlayerDeadView _playerDeadView;
         [SerializeField] private CameraView _cameraView;
         [SerializeField] private float _jumpForce;
         [SerializeField] private СollectingСoinsView _сollectingСoinsView;
+        
+        [SerializeField] private Transform _camera;
+        [SerializeField] private Transform _backPicture;
 
 
         private CameraController _cameraController;
@@ -40,9 +44,10 @@ namespace Game
         private BulletShoot _bulletShoot;
         private PlayerJump _playerJump;
         private Contacts _contacts;
-        private CoinManager _coinManager;
+        private CoinManager[] _coinManager;
         private PlayerDeadController _playerDeadController;
         private СollectingСoinsController _сollectingСoinsController;
+        private ParalaxController _paralaxController;
 
 
         private List<LevelObejctView> _levelObejctViewsList;
@@ -52,7 +57,8 @@ namespace Game
         private void Start()
         {
             
-            _cameraController = new CameraController(_cameraView); 
+            _cameraController = new CameraController(_cameraView);
+            _paralaxController = new ParalaxController(_camera, _backPicture);
             _inputManager = new InputManager();
             _contacts = new Contacts(_playerView.PlayerPolygonCollider);
             _bulletShoot = new BulletShoot(_forceShoot);
@@ -68,7 +74,14 @@ namespace Game
             {
                 _levelObejctViewsList.Add(a[i]);
             }
-            _coinManager = new CoinManager(_levelObejctView, _levelObejctViewsList);
+
+            _coinManager = new CoinManager[2];
+            
+            for (int i = 0; i < _coinManager.Length; i++)
+            {
+                _coinManager[i] = new CoinManager(_levelObejctView[i], _levelObejctViewsList);
+            }
+           
             
             
             _playerDeadController = new PlayerDeadController(_playerDeadView);
@@ -77,6 +90,7 @@ namespace Game
 
         private void Update()
         {
+            _paralaxController.Update();
             _cameraController.MoveCamera();
             _inputManager.Execute();
             _animationController.Update();
@@ -89,7 +103,12 @@ namespace Game
         private void FixedUpdate()
         {
             _playerMovementWalk.FixedExecute();
-            _coinManager.CoinRotation();
+            
+            for (int i = 0; i < _coinManager.Length; i++)
+            {
+                _coinManager[i].CoinRotation();
+            }
+            
         }
     }
 }

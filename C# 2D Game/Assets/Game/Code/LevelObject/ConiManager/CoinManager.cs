@@ -30,7 +30,8 @@ namespace Game.Code.LevelObject.ConiManager
         {
             if (_coinViews.Contains(contactView))
             {
-                GameObject.Destroy(contactView.gameObject);
+                contactView.gameObject.SetActive(false);
+                //GameObject.Destroy(contactView.gameObject);
             }
         }
 
