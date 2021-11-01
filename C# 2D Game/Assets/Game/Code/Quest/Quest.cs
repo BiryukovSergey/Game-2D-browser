@@ -39,7 +39,7 @@ namespace Game.Code.Quest
             _active = true;
             IsComplete = false;
             _view.OnLevelObjectEnter += OnContact;
-            _view.ProcessComplete();
+            //_view.ProcessComplete();
         }
 
         public void Dispose()
