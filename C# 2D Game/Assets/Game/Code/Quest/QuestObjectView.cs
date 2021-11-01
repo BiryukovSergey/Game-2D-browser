@@ -13,7 +13,7 @@ namespace Game.Code.Quest
 
         private void Start()
         {
-            ProcessActivate();
+           // ProcessActivate();
         }
 
         public Action<PlayerView> OnLevelObjectEnter { get; set; }
@@ -22,7 +22,7 @@ namespace Game.Code.Quest
         {
             _sprite.gameObject.SetActive(true);
         }
-        private void ProcessActivate()
+        public void ProcessActivate()
         {
             _sprite.gameObject.SetActive(false);
         }

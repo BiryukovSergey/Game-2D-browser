@@ -39,6 +39,7 @@ namespace Game.Code.Quest
             _active = true;
             IsComplete = false;
             _view.OnLevelObjectEnter += OnContact;
+            _view.ProcessActivate();
             //_view.ProcessComplete();
         }
 
