@@ -11,13 +11,17 @@ namespace Game.Code.Quest
         [SerializeField]public List<GameObject> _coins;
         public int Id => _id;
 
+        private void Start()
+        {
+            ProcessActivate();
+        }
+
         public Action<PlayerView> OnLevelObjectEnter { get; set; }
 
         public void ProcessComplete()
         {
             _sprite.gameObject.SetActive(true);
         }
-
         private void ProcessActivate()
         {
             _sprite.gameObject.SetActive(false);

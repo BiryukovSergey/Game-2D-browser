@@ -6,11 +6,9 @@ namespace Game.Code.Quest
     {
         private readonly QuestObjectView _view;
         private IQuestModel _questModel;
-
+        private bool _active;
         public event Action<IQuest> Completed;
         public bool IsComplete { get; private set; }
-
-        private bool _active;
 
         public Quest(QuestObjectView questObjectView, IQuestModel questModel)
         {
@@ -27,8 +25,7 @@ namespace Game.Code.Quest
 
         private void Complete()
         {
-            if (!_active)
-                return;
+            if (!_active) return;
             _active = false;
             IsComplete = true;
             _view.OnLevelObjectEnter -= OnContact;
@@ -38,8 +35,7 @@ namespace Game.Code.Quest
 
         public void Reset()
         {
-            if(_active) return;
-
+            if (_active) return;
             _active = true;
             IsComplete = false;
             _view.OnLevelObjectEnter += OnContact;
