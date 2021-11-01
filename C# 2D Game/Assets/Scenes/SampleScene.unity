@@ -20078,6 +20078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716954633}
   - component: {fileID: 716954634}
+  - component: {fileID: 716954635}
   m_Layer: 0
   m_Name: 'End '
   m_TagString: Untagged
@@ -20149,6 +20150,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &716954635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716954632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77880812e1b4822bf39fc751cb489b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprite: {fileID: 716954634}
+  _id: 0
+  _coins: []
+--- !u!1 &719661175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719661177}
+  - component: {fileID: 719661176}
+  m_Layer: 0
+  m_Name: QuestConfigurator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &719661176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719661175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8236820195302a64198142253778141e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _singleObjectView: {fileID: 1705876279}
+--- !u!4 &719661177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719661175}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &734984883
 GameObject:
   m_ObjectHideFlags: 0
@@ -22037,6 +22097,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 077447e7a04e4e9f8bb626d67e76ea19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1705876279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705876274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77880812e1b4822bf39fc751cb489b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprite: {fileID: 716954634}
+  _id: 0
+  _coins:
+  - {fileID: 1705876274}
+  - {fileID: 150780885}
 --- !u!1 &1756873224
 GameObject:
   m_ObjectHideFlags: 0
