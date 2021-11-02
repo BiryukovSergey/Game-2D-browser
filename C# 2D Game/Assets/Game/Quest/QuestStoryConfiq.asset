@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1184da32d244ea396f24e34ce9b2419, type: 3}
+  m_Name: QuestStoryConfiq
+  m_EditorClassIdentifier: 
+  quests:
+  - {fileID: 11400000, guid: bb18b981c6cb50147b86f6e65d446961, type: 2}
+  - {fileID: 11400000, guid: 4b59cda3b22cbb94f866015b14d8a2a2, type: 2}
+  questStoryType: 0
