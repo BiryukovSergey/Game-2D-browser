@@ -15,11 +15,11 @@ C:/Users/Сергей/Desktop/Game-2D-browser/C# 2D Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63364
+58580
 Successfully changed project path to: C:/Users/Сергей/Desktop/Game-2D-browser/C# 2D Game
 C:/Users/Сергей/Desktop/Game-2D-browser/C# 2D Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/UnityHub/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/UnityHub/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityHub/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityHub/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/UnityHub/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/UnityHub/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000711 seconds.
+Registered in 0.000748 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  1.018 seconds
 Domain Reload Profiling:
-	ReloadAssembly (975ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (396ms)
-			LoadAssemblies (36ms)
+		EndReloadAssembly (431ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (161ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (176ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002406 seconds.
+Registered in 0.002427 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
+- Completed reload, in  1.116 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1007ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (937ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (327ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (399ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,15 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 106.0 MB.
 System memory in use after: 106.2 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2803.
-Total: 2.901500 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.559400 ms  DeleteObjects: 0.058100 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2804.
+Total: 3.455600 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.175400 ms MarkObjects: 2.960300 ms  DeleteObjects: 0.062400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,1647 +134,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Coins/Prefabs
-  artifactKey: Guid(719a0ed13969c7648bdd19dad1956775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs using Guid(719a0ed13969c7648bdd19dad1956775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e700bf1fafed5c4e25d0ac71b362eb2f') in 0.008322 seconds 
-  Import took 0.011329 seconds .
+  path: Assets/Game
+  artifactKey: Guid(51a3869f2d686284db173cebfbbd48f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game using Guid(51a3869f2d686284db173cebfbbd48f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4545083bb915d7a1abb7f56a3bb621') in 0.009347 seconds 
+  Import took 0.012698 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Coins
-  artifactKey: Guid(aa7f3b72b5b498145b2b6817338a1e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins using Guid(aa7f3b72b5b498145b2b6817338a1e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca869cfd33f79adc920305e6c144f0c0') in 0.006078 seconds 
-  Import took 0.008841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_checkerGround3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(a41e1ab7a92f07d4291e8fb267ca39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_checkerGround3d3aba195e4d26ee.terrainlayer using Guid(a41e1ab7a92f07d4291e8fb267ca39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447f632e621e383d9ebc66cb2dd28e75') in 0.071468 seconds 
-  Import took 0.074456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/_TerrainAutoUpgrade
-  artifactKey: Guid(200b110b8e29e05449fb08f4b4b25c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade using Guid(200b110b8e29e05449fb08f4b4b25c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc61195c5e16d44f6bf2b16e13e8654') in 0.007099 seconds 
-  Import took 0.010094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.576064 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed
-  artifactKey: Guid(58d599fd91240854b9366c3baff52766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed using Guid(58d599fd91240854b9366c3baff52766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5568c51a14dacd80473654d441be3699') in 0.011958 seconds 
-  Import took 0.020514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066004 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-$.prefab
-  artifactKey: Guid(bdbcdfa90b955c94cb849f0e62fd646e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-$.prefab using Guid(bdbcdfa90b955c94cb849f0e62fd646e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f27982a037122c8baa2a28774f964d') in 0.042859 seconds 
-  Import took 0.046035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Crown.prefab
-  artifactKey: Guid(9ac82533afbb4564cbc0522a7b6e6aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Crown.prefab using Guid(9ac82533afbb4564cbc0522a7b6e6aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ef5cd674fa27200ec871f819b48a2a') in 0.016614 seconds 
-  Import took 0.019491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Cherry.prefab
-  artifactKey: Guid(101fc4a263b77a54b989a8f214255951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Cherry.prefab using Guid(101fc4a263b77a54b989a8f214255951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b222c439fbad9c9caff20234888612') in 0.015317 seconds 
-  Import took 0.018604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Diamond.prefab
-  artifactKey: Guid(871994fb49332844195c47547133d928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Diamond.prefab using Guid(871994fb49332844195c47547133d928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293e14b2b363ebf527f3539be2a6d532') in 0.013953 seconds 
-  Import took 0.017198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-_.prefab
-  artifactKey: Guid(c2ea01e1588147c409fc2b17e34df9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-_.prefab using Guid(c2ea01e1588147c409fc2b17e34df9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8581f4bd4c31969461168085b25e45e6') in 0.014366 seconds 
-  Import took 0.017938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Key.prefab
-  artifactKey: Guid(98f47ba8974b25244beacf2da2e5b873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Key.prefab using Guid(98f47ba8974b25244beacf2da2e5b873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbfeab6efdcca64d0851b2d4891b0dd') in 0.014867 seconds 
-  Import took 0.018123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Gift.prefab
-  artifactKey: Guid(3adfa92d663cadc4ebfec9fe953943fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Gift.prefab using Guid(3adfa92d663cadc4ebfec9fe953943fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340476f0a714e6f8e08115648d9ad62d') in 0.013839 seconds 
-  Import took 0.017138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-PokerLeaf.prefab
-  artifactKey: Guid(d55d7ca12a174dd4bbae60c8580553a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-PokerLeaf.prefab using Guid(d55d7ca12a174dd4bbae60c8580553a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993819eb781833a7cd8ef684c2394581') in 0.013176 seconds 
-  Import took 0.016915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Gift.prefab
-  artifactKey: Guid(89b2283c2e4ace446a79a15350abf952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Gift.prefab using Guid(89b2283c2e4ace446a79a15350abf952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f570c49fd003196ee1ca247f1901aaa') in 0.012823 seconds 
-  Import took 0.016539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Coin.prefab
-  artifactKey: Guid(cd6f7ad1c24ddac40aa57b4cc9eb946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Coin.prefab using Guid(cd6f7ad1c24ddac40aa57b4cc9eb946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e856741c7f413d1badb217505f2066d') in 0.013763 seconds 
-  Import took 0.016961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Cup.prefab
-  artifactKey: Guid(338400b03fe64db4382e1f811c935248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Cup.prefab using Guid(338400b03fe64db4382e1f811c935248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f03c7cd67e85a2b98bfde0677fde43c') in 0.015364 seconds 
-  Import took 0.018570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Star.prefab
-  artifactKey: Guid(3fd3243e76e36fe43880fc28c228cf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Star.prefab using Guid(3fd3243e76e36fe43880fc28c228cf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3f03f7e05d00643fe071d14c0cb73b') in 0.014136 seconds 
-  Import took 0.017352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Bolt.prefab
-  artifactKey: Guid(9c0a9530adc7cc647920534cf14c938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Bolt.prefab using Guid(9c0a9530adc7cc647920534cf14c938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d89913b303f6435ac4e4ee00f2aa4bc') in 0.015141 seconds 
-  Import took 0.018403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Spade.prefab
-  artifactKey: Guid(008dd62e7c373df4a90832cc85e3e422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Spade.prefab using Guid(008dd62e7c373df4a90832cc85e3e422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8012560d1d13f9b36b20563ef18a3d9') in 0.013145 seconds 
-  Import took 0.016270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Bolt.prefab
-  artifactKey: Guid(20f65687c573ae04696e8f55fb6d0959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Bolt.prefab using Guid(20f65687c573ae04696e8f55fb6d0959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a77d6a4ea0bba179093b9b6c2cecdc') in 0.015494 seconds 
-  Import took 0.018762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Coin.prefab
-  artifactKey: Guid(ece96f28d30d9c0448c3dab28997968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Coin.prefab using Guid(ece96f28d30d9c0448c3dab28997968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6d43bd8efbf9973de4088898207375') in 0.013763 seconds 
-  Import took 0.018090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Heart.prefab
-  artifactKey: Guid(3b0d46d422b21814d853d276cb564c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Heart.prefab using Guid(3b0d46d422b21814d853d276cb564c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b42be06e866e55ef1854a379f07e35') in 0.021810 seconds 
-  Import took 0.025250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Play.prefab
-  artifactKey: Guid(cf715838443c82748b001b47438f2ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Play.prefab using Guid(cf715838443c82748b001b47438f2ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daaf3a8acc773a71b293b383c44958d') in 0.013612 seconds 
-  Import took 0.017153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Crown.prefab
-  artifactKey: Guid(88f999f4e23efc7478ed2132f68f2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Crown.prefab using Guid(88f999f4e23efc7478ed2132f68f2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932ec145832a26f644889f096f7eace6') in 0.012730 seconds 
-  Import took 0.015873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-PokerLeaf.prefab
-  artifactKey: Guid(6f67bfd68f44bef4ea752a97591691a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-PokerLeaf.prefab using Guid(6f67bfd68f44bef4ea752a97591691a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c1fcd303105c48143035819c223d7b') in 0.013859 seconds 
-  Import took 0.017236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-@.prefab
-  artifactKey: Guid(6e90833749a463a40882636e70f59874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-@.prefab using Guid(6e90833749a463a40882636e70f59874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92276dce5f530790adcecb02334d045b') in 0.015080 seconds 
-  Import took 0.018202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-$.prefab
-  artifactKey: Guid(9ec6cbf7500650d4d8fc44ec6335d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-$.prefab using Guid(9ec6cbf7500650d4d8fc44ec6335d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60cf877b7bee96f2c074191e05a88bd') in 0.013618 seconds 
-  Import took 0.017014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Music.prefab
-  artifactKey: Guid(6742dbc81f82356418584024e043f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Music.prefab using Guid(6742dbc81f82356418584024e043f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a231e083aa6eb75035a36acbd439ad01') in 0.014217 seconds 
-  Import took 0.017486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Cog.prefab
-  artifactKey: Guid(69506ccb10e54ae4ea6246e82f4ec396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Cog.prefab using Guid(69506ccb10e54ae4ea6246e82f4ec396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adfbf508cae6304a252763729182727') in 0.014491 seconds 
-  Import took 0.017657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Heart.prefab
-  artifactKey: Guid(f61312d8b8128764b9ba1c4966ceb825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Heart.prefab using Guid(f61312d8b8128764b9ba1c4966ceb825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dabfb2bf5cd0c0f9628d4bc8f6a6794') in 0.014887 seconds 
-  Import took 0.018625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Play.prefab
-  artifactKey: Guid(b97a01348a59b5d41bf240aa09123d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Play.prefab using Guid(b97a01348a59b5d41bf240aa09123d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1e93f50e1d116eb41c9a361d3ae64e') in 0.013741 seconds 
-  Import took 0.017513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Cup.prefab
-  artifactKey: Guid(4d236bcc61ab97c4eb543603a2360ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Cup.prefab using Guid(4d236bcc61ab97c4eb543603a2360ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb708a22ce9dd9f881166c4720fc7e27') in 0.014971 seconds 
-  Import took 0.018082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-_.prefab
-  artifactKey: Guid(d48b9c0a563a63c47a6696fd6cc4b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-_.prefab using Guid(d48b9c0a563a63c47a6696fd6cc4b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb01617d7d2b131bec369bdf1b28847c') in 0.013994 seconds 
-  Import took 0.018025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Time.prefab
-  artifactKey: Guid(f5269b5be473cfc4ab9eba17b0b652f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Time.prefab using Guid(f5269b5be473cfc4ab9eba17b0b652f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39d3dff39cf67bb181dfa349f9109dd') in 0.014713 seconds 
-  Import took 0.018205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Skull.prefab
-  artifactKey: Guid(37c2a997229f379489a0b703a1426267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Skull.prefab using Guid(37c2a997229f379489a0b703a1426267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939ca6121254e3881d5db4d5ebd93d06') in 0.014689 seconds 
-  Import took 0.018160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Music.prefab
-  artifactKey: Guid(8f3458a569bf4794b97f83d16993a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Music.prefab using Guid(8f3458a569bf4794b97f83d16993a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657b44f0a5f788f11065e695eb8a1888') in 0.015253 seconds 
-  Import took 0.018691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-@.prefab
-  artifactKey: Guid(a9686048a1886e74fa4a74ac1f30be00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-@.prefab using Guid(a9686048a1886e74fa4a74ac1f30be00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a5789c01a1bc7a656faf99c015408e') in 0.016526 seconds 
-  Import took 0.019912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Cherry.prefab
-  artifactKey: Guid(23f248f5eca297641b0a6ecf78d475ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Cherry.prefab using Guid(23f248f5eca297641b0a6ecf78d475ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0191c8c4dde2d3d2633153b5cdbb77c3') in 0.015349 seconds 
-  Import took 0.019462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Shield.prefab
-  artifactKey: Guid(6bf81659c91399640adb70d7d71007f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Shield.prefab using Guid(6bf81659c91399640adb70d7d71007f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff4c7677bfd29e422925e68467cfb2e') in 0.015307 seconds 
-  Import took 0.019138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-key.prefab
-  artifactKey: Guid(e86a17e2169eab842b4d48a0a732cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-key.prefab using Guid(e86a17e2169eab842b4d48a0a732cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18487de8837af6dc514e68ec4a6d27db') in 0.014251 seconds 
-  Import took 0.017887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Diamond.prefab
-  artifactKey: Guid(2bbbcdf0ddc091d4aabfb9c2fc7b0ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3DChecquered-Diamond.prefab using Guid(2bbbcdf0ddc091d4aabfb9c2fc7b0ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4544c7482f5675a79c3517cd2904ffe1') in 0.014015 seconds 
-  Import took 0.017416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Cog.prefab
-  artifactKey: Guid(ed2019d9f9e192147a766a296f0b55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGoldRed/CoinGoldRed3D-Cog.prefab using Guid(ed2019d9f9e192147a766a296f0b55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9fbf5c089f2273b41b36886f717d82') in 0.013468 seconds 
-  Import took 0.016921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.727112 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold
-  artifactKey: Guid(3ec2bcc852b4ac643b2096a73c189c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold using Guid(3ec2bcc852b4ac643b2096a73c189c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db609823c17564f16f8a709067640b5b') in 0.007306 seconds 
-  Import took 0.010494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080655 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-$.prefab
-  artifactKey: Guid(c403d9d665952994686473b493bfbdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-$.prefab using Guid(c403d9d665952994686473b493bfbdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd36c922c8619e76479c5a8623d82ad') in 0.032280 seconds 
-  Import took 0.035822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Skull.prefab
-  artifactKey: Guid(49d4d22ec2feb5d449677adb10ce4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Skull.prefab using Guid(49d4d22ec2feb5d449677adb10ce4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3132d1f128ba65f789e78a8d4d6d2ca8') in 0.025314 seconds 
-  Import took 0.028747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Cog.prefab
-  artifactKey: Guid(414e825938d53f2409cd7fa20f872f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Cog.prefab using Guid(414e825938d53f2409cd7fa20f872f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c95628ac182d23071cec3b3505ee6cd') in 0.022610 seconds 
-  Import took 0.026222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-PokerLeaf.prefab
-  artifactKey: Guid(2dc6f4253438efa4ebd9d588aded2ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-PokerLeaf.prefab using Guid(2dc6f4253438efa4ebd9d588aded2ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6706f287c6ad3ccec2ef3430ff58c03a') in 0.021633 seconds 
-  Import took 0.026303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-$.prefab
-  artifactKey: Guid(c1093e5d73c071b42842bc9444c8975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-$.prefab using Guid(c1093e5d73c071b42842bc9444c8975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9814685a2b39fe367695107e5169a12') in 0.024624 seconds 
-  Import took 0.029338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-@.prefab
-  artifactKey: Guid(b51aea99d3efb9646a05b347f6ad7826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-@.prefab using Guid(b51aea99d3efb9646a05b347f6ad7826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465922e45786eed98476ac4b251618b0') in 0.022914 seconds 
-  Import took 0.027619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-_.prefab
-  artifactKey: Guid(a39df5724f83cb24492cfab00c926520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-_.prefab using Guid(a39df5724f83cb24492cfab00c926520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f871ec8f9e47657f5a59530355823d') in 0.020902 seconds 
-  Import took 0.024619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Bolt.prefab
-  artifactKey: Guid(506994edf62bd47408193ca3c1823ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Bolt.prefab using Guid(506994edf62bd47408193ca3c1823ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e8e910f413f27428426d43378c28f6') in 0.021601 seconds 
-  Import took 0.025542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Cherry.prefab
-  artifactKey: Guid(46d4ab45b2206104d856b7ac8502d5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Cherry.prefab using Guid(46d4ab45b2206104d856b7ac8502d5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca52044364fcba5feefa0ddee87034d') in 0.021152 seconds 
-  Import took 0.025417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Cup.prefab
-  artifactKey: Guid(95dd4c4bc8116d64a8961e185ac0a0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Cup.prefab using Guid(95dd4c4bc8116d64a8961e185ac0a0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de0cdb5f61f6476ba5717ceb2bafbf') in 0.022330 seconds 
-  Import took 0.026301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Gift.prefab
-  artifactKey: Guid(cc2d86f5f108f8e4c9bad581aa8316c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Gift.prefab using Guid(cc2d86f5f108f8e4c9bad581aa8316c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790b4fb6d36725a2541dcb11a537356e') in 0.020287 seconds 
-  Import took 0.023977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Spade.prefab
-  artifactKey: Guid(3454de689ea80ae41b5a7df636519323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Spade.prefab using Guid(3454de689ea80ae41b5a7df636519323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e17abb115843737b16ee846f2c50f8') in 0.020851 seconds 
-  Import took 0.024483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Gift.prefab
-  artifactKey: Guid(8b2e193188e208241975c03193645981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Gift.prefab using Guid(8b2e193188e208241975c03193645981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663c88945e63139dd55775568bb19fa7') in 0.020333 seconds 
-  Import took 0.024061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Heart.prefab
-  artifactKey: Guid(b0d558a35f4c074458595ada66ae9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Heart.prefab using Guid(b0d558a35f4c074458595ada66ae9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0348675d40d863d720a6e18df3616bef') in 0.020785 seconds 
-  Import took 0.024733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-@.prefab
-  artifactKey: Guid(22ca47161af3fd14dbbe896e31ff3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-@.prefab using Guid(22ca47161af3fd14dbbe896e31ff3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e3f7f342b6fe34dc6a45eb75cef64f') in 0.021074 seconds 
-  Import took 0.024802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Crown.prefab
-  artifactKey: Guid(f6a6df30707040343a976adb39de8c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Crown.prefab using Guid(f6a6df30707040343a976adb39de8c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c694e05d952209c3507c02d9dcb23f1f') in 0.020463 seconds 
-  Import took 0.024177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Key.prefab
-  artifactKey: Guid(20af780d2aafb8d4bafa3ce77b9c49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Key.prefab using Guid(20af780d2aafb8d4bafa3ce77b9c49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a791387221277156115839006551bee6') in 0.021400 seconds 
-  Import took 0.025249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Play.prefab
-  artifactKey: Guid(44143827dce9cf34db44d6fb54f31ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Play.prefab using Guid(44143827dce9cf34db44d6fb54f31ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552f4e4a178345835b922c1784a93399') in 0.022836 seconds 
-  Import took 0.026850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Star.prefab
-  artifactKey: Guid(e5916856dc100a44781f84d2463361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Star.prefab using Guid(e5916856dc100a44781f84d2463361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae25908b5c40a80d1de6f9907935c1a') in 0.022853 seconds 
-  Import took 0.026743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-PokerLeaf.prefab
-  artifactKey: Guid(01db62eba8a9e2743bae3d4b7f8f7c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-PokerLeaf.prefab using Guid(01db62eba8a9e2743bae3d4b7f8f7c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e1bb50872eb73afe1b943c28e55519') in 0.022521 seconds 
-  Import took 0.026489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Coin.prefab
-  artifactKey: Guid(3b19e24760f1b214998bcbb9ce7470fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Coin.prefab using Guid(3b19e24760f1b214998bcbb9ce7470fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da4e89460df17f5b9ca379256ee2033') in 0.021084 seconds 
-  Import took 0.025317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-_.prefab
-  artifactKey: Guid(54e8f165bde78554c99053adc756c38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-_.prefab using Guid(54e8f165bde78554c99053adc756c38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6f19f36928e7e0090366de95f32c21') in 0.022544 seconds 
-  Import took 0.027008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Cherry.prefab
-  artifactKey: Guid(b03094a85194fdc468396b2db39965b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Cherry.prefab using Guid(b03094a85194fdc468396b2db39965b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c9e117a8600f4f1e62fc54b87605bf') in 0.020502 seconds 
-  Import took 0.024222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Music.prefab
-  artifactKey: Guid(fade2e618f8ab5f4ea2e64eb8884ad9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Music.prefab using Guid(fade2e618f8ab5f4ea2e64eb8884ad9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa353aa4406790e906fc46f5b4dd465') in 0.021424 seconds 
-  Import took 0.025505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Crown.prefab
-  artifactKey: Guid(7ac438f2a4beeb246b1482cff2ff0d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Crown.prefab using Guid(7ac438f2a4beeb246b1482cff2ff0d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d76e4677ce281eb038e3accc05a1874') in 0.021241 seconds 
-  Import took 0.025066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Bolt.prefab
-  artifactKey: Guid(1d52e9184f87be04eaf1f72a43a0e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Bolt.prefab using Guid(1d52e9184f87be04eaf1f72a43a0e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fb57413dbc4b5cd7ca7bc44740ff00') in 0.024090 seconds 
-  Import took 0.028797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Diamond.prefab
-  artifactKey: Guid(f849cb4ce9734e34bb178a8c55746557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Diamond.prefab using Guid(f849cb4ce9734e34bb178a8c55746557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f269892c118b46222d6f11349ed069bb') in 0.023817 seconds 
-  Import took 0.027803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Music.prefab
-  artifactKey: Guid(39c91279b62bc0744b3c810615d067a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Music.prefab using Guid(39c91279b62bc0744b3c810615d067a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2210c735b68c6f391a37450a734b9a') in 0.022652 seconds 
-  Import took 0.026896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Time.prefab
-  artifactKey: Guid(268d3bf30f6b09944bbd6a7995c916ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Time.prefab using Guid(268d3bf30f6b09944bbd6a7995c916ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddcbd1e39dd5f27c6be6149e54b3afa') in 0.022505 seconds 
-  Import took 0.027788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Diamond.prefab
-  artifactKey: Guid(f41983fc11adf7d47bb5f0952fb6df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Diamond.prefab using Guid(f41983fc11adf7d47bb5f0952fb6df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164a485d7fc0776663a0ad2e77b4a463') in 0.023399 seconds 
-  Import took 0.028142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Heart.prefab
-  artifactKey: Guid(1e992e9da7bf176478f63978cd72a8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Heart.prefab using Guid(1e992e9da7bf176478f63978cd72a8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237d581b71d897708f54b8706bb913c4') in 0.024599 seconds 
-  Import took 0.028581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Coin.prefab
-  artifactKey: Guid(07e24418d195b3d499e2e76e9a33bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Coin.prefab using Guid(07e24418d195b3d499e2e76e9a33bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8971bb296c5ab89018f12ea4567d36') in 0.023002 seconds 
-  Import took 0.027170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Skull.prefab
-  artifactKey: Guid(e1859ac86d237c747a30ce4c0260cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Skull.prefab using Guid(e1859ac86d237c747a30ce4c0260cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fafdfe2c4cfb4a92f90a7178e133a9a') in 0.021310 seconds 
-  Import took 0.025450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Cup.prefab
-  artifactKey: Guid(0c921a18733f7b74886b7e41ff28824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Cup.prefab using Guid(0c921a18733f7b74886b7e41ff28824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fadf2247e3439ed6e138ecfc884a34f') in 0.018275 seconds 
-  Import took 0.021432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Spade.prefab
-  artifactKey: Guid(f2234d1bb1c8853419e807f9b0a98ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Spade.prefab using Guid(f2234d1bb1c8853419e807f9b0a98ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b807d0ac4cc2200ad3db5129bc3a3c57') in 0.017623 seconds 
-  Import took 0.021354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-$.prefab
-  artifactKey: Guid(f0a35953b76a4534b80e2a549eecd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-$.prefab using Guid(f0a35953b76a4534b80e2a549eecd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6bffa02ad2517f436918545f258063') in 0.021141 seconds 
-  Import took 0.025374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Music.prefab
-  artifactKey: Guid(475aa6c935d31b749a36de16c0782698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Music.prefab using Guid(475aa6c935d31b749a36de16c0782698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8265ba123f01e0e6cfe4f4a8aca74db8') in 0.016389 seconds 
-  Import took 0.020126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Time.prefab
-  artifactKey: Guid(cf273101288ebe844978e20baa441b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Time.prefab using Guid(cf273101288ebe844978e20baa441b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0f39e476797f00b5c9d4a17531de2b') in 0.017724 seconds 
-  Import took 0.020988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Play.prefab
-  artifactKey: Guid(347fd0f286bd5594e94db65cf926c420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Play.prefab using Guid(347fd0f286bd5594e94db65cf926c420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93431c217d39b9b67207a55d7315c93d') in 0.018928 seconds 
-  Import took 0.021891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-PokerLeaf.prefab
-  artifactKey: Guid(64290448a8f345d449a530a5578bdc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-PokerLeaf.prefab using Guid(64290448a8f345d449a530a5578bdc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693538da1e6654f08d38dd3cc12f8566') in 0.016442 seconds 
-  Import took 0.019728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Star.prefab
-  artifactKey: Guid(684015d29cdf62d4bb425602ce039160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Star.prefab using Guid(684015d29cdf62d4bb425602ce039160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70e2d0d7ea9538704dbcf6857f3e312') in 0.021075 seconds 
-  Import took 0.025056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-$.prefab
-  artifactKey: Guid(9dcbb6e65d84ea14fae26c4802cd3579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-$.prefab using Guid(9dcbb6e65d84ea14fae26c4802cd3579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01ff8fee63c494e63c0dce0cd99d252') in 0.015917 seconds 
-  Import took 0.019456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Gift.prefab
-  artifactKey: Guid(e61cfce72caed7144b142555df00f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Gift.prefab using Guid(e61cfce72caed7144b142555df00f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8689cc4ef50fb03c6b804358b5e6cf37') in 0.017223 seconds 
-  Import took 0.020755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Shield.prefab
-  artifactKey: Guid(1d8fc31ed223e2d46b05f9464a1248ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Shield.prefab using Guid(1d8fc31ed223e2d46b05f9464a1248ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27608f2d546fb2f5a82dad69694afe29') in 0.021872 seconds 
-  Import took 0.026490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Crown.prefab
-  artifactKey: Guid(4be25692c3f692b4d88bc4a87765143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Crown.prefab using Guid(4be25692c3f692b4d88bc4a87765143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63d19d472831cca3699c18bba0ae360') in 0.016528 seconds 
-  Import took 0.019888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Diamond.prefab
-  artifactKey: Guid(4a04b63ae204fee4b98c428ed9213064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Diamond.prefab using Guid(4a04b63ae204fee4b98c428ed9213064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9128b185933930c7382eee0334c6c8') in 0.017064 seconds 
-  Import took 0.020435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Bolt.prefab
-  artifactKey: Guid(cb2d0555c42ab564c9c341dd6ec38268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Bolt.prefab using Guid(cb2d0555c42ab564c9c341dd6ec38268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c7891fc81d2d58837d003717bf4b20') in 0.022828 seconds 
-  Import took 0.027130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-@.prefab
-  artifactKey: Guid(1587436c8fc1b7146a51665c97f1b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-@.prefab using Guid(1587436c8fc1b7146a51665c97f1b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dbc95847a06d473a5998b55eb8fe9b') in 0.017686 seconds 
-  Import took 0.021980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Cog.prefab
-  artifactKey: Guid(9efb25011bb0cb74eb1a901ab99f27d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Cog.prefab using Guid(9efb25011bb0cb74eb1a901ab99f27d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bac9e955386526f143594725acfb56') in 0.020574 seconds 
-  Import took 0.024715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Time.prefab
-  artifactKey: Guid(2f96fdfb3a2e5c341b48650ea4b6260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Time.prefab using Guid(2f96fdfb3a2e5c341b48650ea4b6260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17396f20c7246d5d3c25e002764389a1') in 0.023497 seconds 
-  Import took 0.027449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Crown 1.prefab
-  artifactKey: Guid(e2d8502156da18244b0d566b8792e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Crown 1.prefab using Guid(e2d8502156da18244b0d566b8792e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f3563d9036f466b8837909d9feda89') in 0.016235 seconds 
-  Import took 0.020236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Coin.prefab
-  artifactKey: Guid(a5ef8416b9d7aa64ba536ac61a6e6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Coin.prefab using Guid(a5ef8416b9d7aa64ba536ac61a6e6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3eafc9c8d55d6b2ac20ac6c58b97675') in 0.018645 seconds 
-  Import took 0.022626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-heart.prefab
-  artifactKey: Guid(a8fae2cea5ba83544b2dd9a6e902c93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-heart.prefab using Guid(a8fae2cea5ba83544b2dd9a6e902c93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ca815fc80709e79a5389644b25c1a8') in 0.017304 seconds 
-  Import took 0.020430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Star.prefab
-  artifactKey: Guid(723348c65d9cce04683439d881394788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Star.prefab using Guid(723348c65d9cce04683439d881394788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e4ea4686030d206af1bfb29dbb5932') in 0.019284 seconds 
-  Import took 0.022776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-_.prefab
-  artifactKey: Guid(cfe1158bb26411540b458b0759090220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-_.prefab using Guid(cfe1158bb26411540b458b0759090220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe48f0422de08e42dda309a725c4f35') in 0.020399 seconds 
-  Import took 0.025198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Shield.prefab
-  artifactKey: Guid(6799f96e99654314a928014839981b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Shield.prefab using Guid(6799f96e99654314a928014839981b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44460d541959a82353ed1e576ccd15c') in 0.018528 seconds 
-  Import took 0.022840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Key.prefab
-  artifactKey: Guid(0037873551edeec48a047264dca364e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Key.prefab using Guid(0037873551edeec48a047264dca364e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f6bf469f8795e73bac39a8ea4d87de') in 0.017998 seconds 
-  Import took 0.021463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Skull.prefab
-  artifactKey: Guid(f7a9e345d0418e740a68d00da3d4171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldCheckered-FlatDesignedOutlineWhite-Skull.prefab using Guid(f7a9e345d0418e740a68d00da3d4171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0af426666278cf4741b77dbba65fafa') in 0.019333 seconds 
-  Import took 0.022576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Shield.prefab
-  artifactKey: Guid(582fbaeb1de588444a2e4d76b5ea1875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Shield.prefab using Guid(582fbaeb1de588444a2e4d76b5ea1875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc58b160eab54c3ef00cfd7150192c5d') in 0.022852 seconds 
-  Import took 0.027313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Spade.prefab
-  artifactKey: Guid(a4759e78ffb5e394a9208100cf0807ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold3D-Spade.prefab using Guid(a4759e78ffb5e394a9208100cf0807ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea2f9e4f22537989fcd50b1851da7e0') in 0.019762 seconds 
-  Import took 0.023431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Cog.prefab
-  artifactKey: Guid(ecaf77f92424dec45a84a39191c67488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Cog.prefab using Guid(ecaf77f92424dec45a84a39191c67488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471de119d4287f94d77e1707d78a51c7') in 0.020362 seconds 
-  Import took 0.024139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Key.prefab
-  artifactKey: Guid(e654235889ecdc74ba1b695c3f0c307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Key.prefab using Guid(e654235889ecdc74ba1b695c3f0c307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696bcf317215b20bd0076e4b755bb992') in 0.020817 seconds 
-  Import took 0.024486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Play.prefab
-  artifactKey: Guid(a3f3312c3c2103d48a6f2107e398f75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Play.prefab using Guid(a3f3312c3c2103d48a6f2107e398f75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a745b8235de9aa28aec883e99a2cbfab') in 0.020887 seconds 
-  Import took 0.024562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Cup.prefab
-  artifactKey: Guid(93335e0eb0687d8429dc109eaab80d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGold-Cup.prefab using Guid(93335e0eb0687d8429dc109eaab80d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cfa73f74040a8b4d191b9ab739d1e1') in 0.021178 seconds 
-  Import took 0.024700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037266 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-@.prefab
-  artifactKey: Guid(b47f156f02dba3d44b86e7bce022ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-@.prefab using Guid(b47f156f02dba3d44b86e7bce022ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e06f3bbc272abc5301b6f36af631c67') in 0.020707 seconds 
-  Import took 0.024363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Bolt.prefab
-  artifactKey: Guid(e9565ab65e4c43a458d68eece2494502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Bolt.prefab using Guid(e9565ab65e4c43a458d68eece2494502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057f04b6b151caefcba2b3907eec5a63') in 0.021436 seconds 
-  Import took 0.026836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Diamond.prefab
-  artifactKey: Guid(36733131c9b70c44f8e4aeff6704d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Diamond.prefab using Guid(36733131c9b70c44f8e4aeff6704d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5878d96bfa2a9a5ee78d7c7a0153c8') in 0.025439 seconds 
-  Import took 0.029229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Cog.prefab
-  artifactKey: Guid(20da9fb3096123547a9de4966bac2414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Cog.prefab using Guid(20da9fb3096123547a9de4966bac2414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e42af7c8ac62537e24062e39110782') in 0.016545 seconds 
-  Import took 0.019837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Coin.prefab
-  artifactKey: Guid(1e96f0af112f0e449b4d61f0b17998ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Coin.prefab using Guid(1e96f0af112f0e449b4d61f0b17998ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e303460f714b70441675eff74827be53') in 0.016141 seconds 
-  Import took 0.019480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Crown 1.prefab
-  artifactKey: Guid(d01539359b70faf42a3dcb0a68801ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Crown 1.prefab using Guid(d01539359b70faf42a3dcb0a68801ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aee8350ebee41040e17f4c503a1e600') in 0.020979 seconds 
-  Import took 0.024781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Pokerleaf.prefab
-  artifactKey: Guid(3829a99ad4010dd4e9d0bb9464c7a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Pokerleaf.prefab using Guid(3829a99ad4010dd4e9d0bb9464c7a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b48a92d8bb14b7dc15637b4be817b71') in 0.017513 seconds 
-  Import took 0.020704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Gift.prefab
-  artifactKey: Guid(108aa61307bc54b4fbe7a2d2d1d53412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Gift.prefab using Guid(108aa61307bc54b4fbe7a2d2d1d53412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474201528a5a9fd455a5547d46b403b4') in 0.016528 seconds 
-  Import took 0.020140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-$.prefab
-  artifactKey: Guid(974c0b86605f0f2499546525b4795d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-$.prefab using Guid(974c0b86605f0f2499546525b4795d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2561faa8fd8f6ef6320e6ce0ba450594') in 0.017066 seconds 
-  Import took 0.020435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-_.prefab
-  artifactKey: Guid(2663766da6fd2254cbd84ba875ec9df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-_.prefab using Guid(2663766da6fd2254cbd84ba875ec9df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d710e617d3fab3eb6485608c00a3ee') in 0.016616 seconds 
-  Import took 0.019810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Music.prefab
-  artifactKey: Guid(dea113c5f419cff49a88e230064c98ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Music.prefab using Guid(dea113c5f419cff49a88e230064c98ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349ccd6c4416a81e5db62706862a9f67') in 0.015988 seconds 
-  Import took 0.019093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Heart.prefab
-  artifactKey: Guid(f5b36cc3aeee0d745b0363c6b4832d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Heart.prefab using Guid(f5b36cc3aeee0d745b0363c6b4832d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a7c1a67d786ae583a4447f81f5342d') in 0.015343 seconds 
-  Import took 0.018694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Bolt.prefab
-  artifactKey: Guid(4fea4a4a0ec078d4ea77d7627dbf1003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Bolt.prefab using Guid(4fea4a4a0ec078d4ea77d7627dbf1003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d841dd19e32c884b75a68ee268427') in 0.015726 seconds 
-  Import took 0.018943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Cup.prefab
-  artifactKey: Guid(5630246e569b7064ea4ce140865a3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Cup.prefab using Guid(5630246e569b7064ea4ce140865a3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01617dbf591f64d7608b60f7f1990df') in 0.016849 seconds 
-  Import took 0.020097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Play.prefab
-  artifactKey: Guid(37bd4f529f95101419b749315cc489c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Play.prefab using Guid(37bd4f529f95101419b749315cc489c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bcca6a9c2a0d7972c9b33df3b0e4c1') in 0.016935 seconds 
-  Import took 0.020081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Diamond.prefab
-  artifactKey: Guid(ddf339a809bd0e4449a14606235f0a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Diamond.prefab using Guid(ddf339a809bd0e4449a14606235f0a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203139885296d558683e4ccc523212e0') in 0.016204 seconds 
-  Import took 0.019318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-_.prefab
-  artifactKey: Guid(bcc9f7bd3c7621f4c8e000b16bf9b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-_.prefab using Guid(bcc9f7bd3c7621f4c8e000b16bf9b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9245bdc70ea4f0ed2e203916efb856da') in 0.022266 seconds 
-  Import took 0.026062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Crown.prefab
-  artifactKey: Guid(70171c10bbc2cab4dac5dc5fac5c8093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Crown.prefab using Guid(70171c10bbc2cab4dac5dc5fac5c8093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12b1bc061e89073d55e75c2b24ab587') in 0.016851 seconds 
-  Import took 0.020124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Shield.prefab
-  artifactKey: Guid(90b813ebf2eae5b46a57e24e01c7b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Shield.prefab using Guid(90b813ebf2eae5b46a57e24e01c7b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11398e99020c164f319c265fc04f98e') in 0.016274 seconds 
-  Import took 0.019788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Skull.prefab
-  artifactKey: Guid(1cab32ac4ebb94446be58c124ba4f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Skull.prefab using Guid(1cab32ac4ebb94446be58c124ba4f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168e9cf93ed8f482994de0ea732fbb56') in 0.016051 seconds 
-  Import took 0.019469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Key.prefab
-  artifactKey: Guid(dcd9ea4820a597a41ba85fa0cd1955af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Key.prefab using Guid(dcd9ea4820a597a41ba85fa0cd1955af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9641ca5e732280af02be3ead4f35afae') in 0.016032 seconds 
-  Import took 0.020100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Cog.prefab
-  artifactKey: Guid(d6d01e879f3aeda40a3aebdb4532de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Cog.prefab using Guid(d6d01e879f3aeda40a3aebdb4532de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f5adc6f3c3f367e5dbe2c5f5a3fe67') in 0.022581 seconds 
-  Import took 0.026567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-@.prefab
-  artifactKey: Guid(122c8570d9b8a01408f835467f77bb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-@.prefab using Guid(122c8570d9b8a01408f835467f77bb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2789cfe742eb1a8f53aa918606ae2a25') in 0.016228 seconds 
-  Import took 0.019843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Cherry.prefab
-  artifactKey: Guid(e1c98c23df2f3554eaca0dff4ea151bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-FlatDesignedOutline-Cherry.prefab using Guid(e1c98c23df2f3554eaca0dff4ea151bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5269facadeb624211e281079337f8c26') in 0.016414 seconds 
-  Import took 0.019835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Crown.prefab
-  artifactKey: Guid(78247ab89f8adb64ba65cca9845c2948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Crown.prefab using Guid(78247ab89f8adb64ba65cca9845c2948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be389c34e38422b24f1740272d60093d') in 0.021525 seconds 
-  Import took 0.025809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Coin.prefab
-  artifactKey: Guid(e726e605252492940867d0f4cecf1440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Coin.prefab using Guid(e726e605252492940867d0f4cecf1440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d188d4417f186e9244e671c83526891') in 0.022786 seconds 
-  Import took 0.026674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Cup.prefab
-  artifactKey: Guid(6fb6290026bf7cc4f9448dd3158ed52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinGold/CoinGoldLightCheckered-Cup.prefab using Guid(6fb6290026bf7cc4f9448dd3158ed52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adeab6c20105b224f0088a14ba6aca4') in 0.020983 seconds 
-  Import took 0.024802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.968180 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue
-  artifactKey: Guid(feff9902b17531d438bb0de4b1eca44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue using Guid(feff9902b17531d438bb0de4b1eca44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc24d51b68f947ce20e8e7debd1f45fc') in 0.007646 seconds 
-  Import took 0.010679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071551 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-$.prefab
-  artifactKey: Guid(5a59b2d2c46cd4d42968287147fa156c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-$.prefab using Guid(5a59b2d2c46cd4d42968287147fa156c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be972401b74db6b65faf960a0ebb1ff3') in 0.023049 seconds 
-  Import took 0.026907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Cup.prefab
-  artifactKey: Guid(daa2888026db49840affeb9571bf1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Cup.prefab using Guid(daa2888026db49840affeb9571bf1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c17a952a0ec94c6587b75f87d8be2f') in 0.024067 seconds 
-  Import took 0.028458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Cup.prefab
-  artifactKey: Guid(170f4d935b1cd9c44a6fcf3a0c86e5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Cup.prefab using Guid(170f4d935b1cd9c44a6fcf3a0c86e5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e4ff70345d4b0f29da650c2026cf2a') in 0.022638 seconds 
-  Import took 0.027043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Bolt.prefab
-  artifactKey: Guid(55946d35f74cf6041bf1800f2e23a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Bolt.prefab using Guid(55946d35f74cf6041bf1800f2e23a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaad09bc78dc481e0190557bf3dc14d') in 0.021971 seconds 
-  Import took 0.025692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-key.prefab
-  artifactKey: Guid(c245275ae03d3e942876bfd5b78e2e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-key.prefab using Guid(c245275ae03d3e942876bfd5b78e2e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532cc16d79c17c87e9011364530dba34') in 0.022082 seconds 
-  Import took 0.026231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Heart.prefab
-  artifactKey: Guid(fc17ec0e1070f0141a64bcbfa3445a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Heart.prefab using Guid(fc17ec0e1070f0141a64bcbfa3445a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064016f9d19c11c0dac28b129733c5e0') in 0.022075 seconds 
-  Import took 0.026039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Cog.prefab
-  artifactKey: Guid(8f6eca57ef1b1d84db75ab36b4392a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Cog.prefab using Guid(8f6eca57ef1b1d84db75ab36b4392a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47f835a2491a87419268d45c9d16821') in 0.022797 seconds 
-  Import took 0.026634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Diamond.prefab
-  artifactKey: Guid(31b28ef33ec51c8499ecc26e990559d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Diamond.prefab using Guid(31b28ef33ec51c8499ecc26e990559d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be68b640a5c335be89f9ce0b01365b46') in 0.022140 seconds 
-  Import took 0.026002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Gift.prefab
-  artifactKey: Guid(dedbf67b037e9784796bc9ab006d3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Gift.prefab using Guid(dedbf67b037e9784796bc9ab006d3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ddfbff072aee2dd4a694384626783b') in 0.023016 seconds 
-  Import took 0.027151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-_.prefab
-  artifactKey: Guid(2942da45ce0eca745be6383f89be5ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-_.prefab using Guid(2942da45ce0eca745be6383f89be5ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dc7abf707f6315d9fc88ea19034066') in 0.020694 seconds 
-  Import took 0.025696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Cherry.prefab
-  artifactKey: Guid(7053f59427647d24e97f2c9fb4671f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Cherry.prefab using Guid(7053f59427647d24e97f2c9fb4671f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f36ebf38eeac35ae762af99f450886c') in 0.021615 seconds 
-  Import took 0.025725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-@.prefab
-  artifactKey: Guid(0c8b7c2592bcd3344adea1ae5049747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-@.prefab using Guid(0c8b7c2592bcd3344adea1ae5049747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba00abf148c17f2bcf2cf7a2eafb9410') in 0.021920 seconds 
-  Import took 0.025798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Diamond.prefab
-  artifactKey: Guid(25617b8e053370848b54c93f3c8f8b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Diamond.prefab using Guid(25617b8e053370848b54c93f3c8f8b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b197eb3733bdcb23a373859cb8e1d3') in 0.023449 seconds 
-  Import took 0.027643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Coin.prefab
-  artifactKey: Guid(f174d9f43f46b1e4cb3cd845c3a27643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Coin.prefab using Guid(f174d9f43f46b1e4cb3cd845c3a27643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d4a045c813dc5e7f13baa735eb97d2') in 0.023465 seconds 
-  Import took 0.028286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Crown.prefab
-  artifactKey: Guid(0a682a0a08897fa4d8905a4b29bcb5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Crown.prefab using Guid(0a682a0a08897fa4d8905a4b29bcb5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1839cba12050d99288833553f6262a7b') in 0.021714 seconds 
-  Import took 0.025964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Music.prefab
-  artifactKey: Guid(db29321780d976b44b6dc993f6c6b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Music.prefab using Guid(db29321780d976b44b6dc993f6c6b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dd941d9c3c1c60def436998179f542') in 0.024704 seconds 
-  Import took 0.028821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Cog.prefab
-  artifactKey: Guid(ee24fe35bed10164bb0220d31339ca9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Cog.prefab using Guid(ee24fe35bed10164bb0220d31339ca9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f0bb2530999888b2085ba98356761d') in 0.028282 seconds 
-  Import took 0.033069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-_.prefab
-  artifactKey: Guid(31e94d51cdc302f468b2288e6ea906bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-_.prefab using Guid(31e94d51cdc302f468b2288e6ea906bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d06f4833b2b4482852d3486d6586d4') in 0.023276 seconds 
-  Import took 0.027496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Chery.prefab
-  artifactKey: Guid(01c59a0d371d704468bb1aa8e0cf5753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Chery.prefab using Guid(01c59a0d371d704468bb1aa8e0cf5753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1ff2df01e4fed80fcc86654a109004') in 0.022316 seconds 
-  Import took 0.026848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Star.prefab
-  artifactKey: Guid(697891968a033fc4f914154ff3110dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Star.prefab using Guid(697891968a033fc4f914154ff3110dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a352d34a7365145d8474009f089724') in 0.025055 seconds 
-  Import took 0.029182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Shield.prefab
-  artifactKey: Guid(7e169ba25ac4e9440aa556f6598a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Shield.prefab using Guid(7e169ba25ac4e9440aa556f6598a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c842a3bf47b71c6afeb1922be64a414') in 0.027248 seconds 
-  Import took 0.031211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Skull.prefab
-  artifactKey: Guid(cb398428e03043b409302b7204aa19da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Skull.prefab using Guid(cb398428e03043b409302b7204aa19da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8922b16d9d30651db1583a1a071122') in 0.026400 seconds 
-  Import took 0.030591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Crown.prefab
-  artifactKey: Guid(cab3a5f82f14e93409d3bfcfadc140af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Crown.prefab using Guid(cab3a5f82f14e93409d3bfcfadc140af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30565f10728db9f13bac2569fa1b95e') in 0.025271 seconds 
-  Import took 0.029401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Time.prefab
-  artifactKey: Guid(45059d102c2df054e80b38d062fa8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Time.prefab using Guid(45059d102c2df054e80b38d062fa8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a062f24ddc39358f66d4afd41ed0184d') in 0.026999 seconds 
-  Import took 0.031082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Play.prefab
-  artifactKey: Guid(f7245e37c89ab9c49a54478809dddd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Play.prefab using Guid(f7245e37c89ab9c49a54478809dddd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eb1201844f873b7d271529413956eb') in 0.025430 seconds 
-  Import took 0.029469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Bolt.prefab
-  artifactKey: Guid(43deb6d539c9cab489450d01c23b253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Bolt.prefab using Guid(43deb6d539c9cab489450d01c23b253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3849c2f148d6181ed11ebe37dd2251bf') in 0.024742 seconds 
-  Import took 0.028647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-PokerLeaf.prefab
-  artifactKey: Guid(9133678bb00fcdc4bba1523b0593fb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-PokerLeaf.prefab using Guid(9133678bb00fcdc4bba1523b0593fb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fd053c0211e5f37e0f9a88d74f1d7d') in 0.024099 seconds 
-  Import took 0.027847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Coin.prefab
-  artifactKey: Guid(50a45b63d7a27b94e8c4edd8530ab226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Coin.prefab using Guid(50a45b63d7a27b94e8c4edd8530ab226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeae44a43fb1f9f13bdb586e852d44d') in 0.023928 seconds 
-  Import took 0.027638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Key.prefab
-  artifactKey: Guid(3aebe95c11f26374b9ed55de5954e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Key.prefab using Guid(3aebe95c11f26374b9ed55de5954e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944f11e0ed9a17ad0657fef1ab79cdcc') in 0.023887 seconds 
-  Import took 0.027443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Spade.prefab
-  artifactKey: Guid(92f532d12f360594da88bd7419400a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Spade.prefab using Guid(92f532d12f360594da88bd7419400a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb9faf8b9662405e44ef349778a8ec7') in 0.022580 seconds 
-  Import took 0.026542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Music.prefab
-  artifactKey: Guid(7c37dac2bf8b78548a0f15e346d5e9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Music.prefab using Guid(7c37dac2bf8b78548a0f15e346d5e9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eec243824297ab9f9200f37e312d11') in 0.027534 seconds 
-  Import took 0.031079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Heart.prefab
-  artifactKey: Guid(f14c4fdc3c8785543a08639b28cebc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Heart.prefab using Guid(f14c4fdc3c8785543a08639b28cebc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d02e50f14040bd5480be1839a3ed100') in 0.021700 seconds 
-  Import took 0.026678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-$.prefab
-  artifactKey: Guid(d750bc48d3f29f144aabed554a9d5c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-$.prefab using Guid(d750bc48d3f29f144aabed554a9d5c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc80f658ed0da01f4a10a2ed8248206d') in 0.022156 seconds 
-  Import took 0.026280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-@.prefab
-  artifactKey: Guid(9436f21f7a08afd4198ce000d0621d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-@.prefab using Guid(9436f21f7a08afd4198ce000d0621d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f25af1136beddffba9fa315966b95c9') in 0.021358 seconds 
-  Import took 0.025143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Gift.prefab
-  artifactKey: Guid(803a844e077e2ca4a8221fbafb334d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Gift.prefab using Guid(803a844e077e2ca4a8221fbafb334d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad522f04bd722487912a07081831c8c9') in 0.022328 seconds 
-  Import took 0.026128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Play.prefab
-  artifactKey: Guid(fc978b252caa20d46ac6eead2c66bffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Play.prefab using Guid(fc978b252caa20d46ac6eead2c66bffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f9f7e4cc99aa1ec5eb8e7d74bb7c9e') in 0.021780 seconds 
-  Import took 0.025508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Shield.prefab
-  artifactKey: Guid(7b2e5bec49aab7548a0e8aa2bccc9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3D-Shield.prefab using Guid(7b2e5bec49aab7548a0e8aa2bccc9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eae91010d88a6600d98b7d4309b2d5') in 0.022727 seconds 
-  Import took 0.026910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.608372 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Skull.prefab
-  artifactKey: Guid(a4e894415060d004cba64a4379d1c0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Skull.prefab using Guid(a4e894415060d004cba64a4379d1c0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898007ed82aeb14c7c2bf5ec17a4ec77') in 0.027729 seconds 
-  Import took 0.032511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Spade 1.prefab
-  artifactKey: Guid(601c5e3ff8cc1a747bd3673eaacd993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Spade 1.prefab using Guid(601c5e3ff8cc1a747bd3673eaacd993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ca8d2514c33b19cdb5dc45cbc9973f') in 0.023897 seconds 
-  Import took 0.029264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-_.prefab
-  artifactKey: Guid(59f692838c02b264ca97d5c01f4129fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-_.prefab using Guid(59f692838c02b264ca97d5c01f4129fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd851a570904e4a122ff5455508f945d6') in 0.021768 seconds 
-  Import took 0.025510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-$.prefab
-  artifactKey: Guid(33cde31f47e91d6439e627eab0601353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-$.prefab using Guid(33cde31f47e91d6439e627eab0601353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbe4d1680aff545d143687535e8b488') in 0.022572 seconds 
-  Import took 0.026559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Gift.prefab
-  artifactKey: Guid(4a0828978157533408748fda2d8caeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Gift.prefab using Guid(4a0828978157533408748fda2d8caeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5962eef8fc8f72b7b498aa62bdc7b21e') in 0.021681 seconds 
-  Import took 0.025500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-@.prefab
-  artifactKey: Guid(d6857f2e7e144e04cb9ff217de3ea41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-@.prefab using Guid(d6857f2e7e144e04cb9ff217de3ea41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b90f77651c1a4a94128cde6dba7d32') in 0.021571 seconds 
-  Import took 0.025562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Key.prefab
-  artifactKey: Guid(e6d6708be9414654986eb825c3fc79e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Key.prefab using Guid(e6d6708be9414654986eb825c3fc79e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173c3269c9349edd82d5cacb93056c98') in 0.022962 seconds 
-  Import took 0.027808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Cup.prefab
-  artifactKey: Guid(66b2b9d41d0d73c45b16a9e8ffa33e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Cup.prefab using Guid(66b2b9d41d0d73c45b16a9e8ffa33e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e14db84d81a89be48bd6841b5b2389') in 0.024327 seconds 
-  Import took 0.028107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-heart.prefab
-  artifactKey: Guid(a4d41186891705f409e115f7a8088a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-heart.prefab using Guid(a4d41186891705f409e115f7a8088a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b42559192900cfbfb11ad60b7615678') in 0.021574 seconds 
-  Import took 0.025918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Spade.prefab
-  artifactKey: Guid(cb6e2dd6742f7544c97c8cad7ef982ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Spade.prefab using Guid(cb6e2dd6742f7544c97c8cad7ef982ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0af4ee7e28cf28a26109276e72bea7') in 0.021990 seconds 
-  Import took 0.025785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Cherry.prefab
-  artifactKey: Guid(b7522814a18b8d3449d868d64cad9ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Cherry.prefab using Guid(b7522814a18b8d3449d868d64cad9ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b6c2530a804ef59e3b148eb47298ab') in 0.021521 seconds 
-  Import took 0.025484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Cog.prefab
-  artifactKey: Guid(6382990920b01ca4980396545b6a8cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Cog.prefab using Guid(6382990920b01ca4980396545b6a8cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a47f326b846552df0176bbc98197ec') in 0.021657 seconds 
-  Import took 0.026750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Crown.prefab
-  artifactKey: Guid(e17ad3c1c74a1e34491b226e3b065a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Crown.prefab using Guid(e17ad3c1c74a1e34491b226e3b065a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e958777a49407c61b6d292e45a4163') in 0.020999 seconds 
-  Import took 0.025856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Diamond.prefab
-  artifactKey: Guid(418478326a9eb1742b15f6e73796fc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Diamond.prefab using Guid(418478326a9eb1742b15f6e73796fc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa1a9c78c604f588d9211c699478d84') in 0.021147 seconds 
-  Import took 0.025072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Coin.prefab
-  artifactKey: Guid(7383fba93e1eb5a4e9dff7c75e4a68e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Coin.prefab using Guid(7383fba93e1eb5a4e9dff7c75e4a68e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54037330c2a6c063764a9a1cdf0691ca') in 0.021455 seconds 
-  Import took 0.025225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Star.prefab
-  artifactKey: Guid(dfcd1a0c266838b48b11c75faa0b2667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Star.prefab using Guid(dfcd1a0c266838b48b11c75faa0b2667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2838ed1fac479a87ab06eb9324043e') in 0.023334 seconds 
-  Import took 0.027252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Bolt.prefab
-  artifactKey: Guid(cc7b4f55fb878c842a512b02b25f9405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlueFlat-Bolt.prefab using Guid(cc7b4f55fb878c842a512b02b25f9405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e77574569c047eea382d917c74a2655') in 0.021482 seconds 
-  Import took 0.025211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Time.prefab
-  artifactKey: Guid(4fe57297be38c93439ad45583df5e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Coins/Prefabs/GameCoin-CoinBlue/CoinBlue3DChecqueredWhite-Time.prefab using Guid(4fe57297be38c93439ad45583df5e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd1c82b79c1eda101b5b819f8ad8455') in 0.021427 seconds 
-  Import took 0.025695 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.8 MB.
-System memory in use after: 63.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2814.
-Total: 3.328500 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.111700 ms MarkObjects: 2.956000 ms  DeleteObjects: 0.016500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002344 seconds.
+Registered in 0.002329 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.924 seconds
+- Completed reload, in  0.978 seconds
 Domain Reload Profiling:
-	ReloadAssembly (925ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (780ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (276ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 108.6 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2816.
-Total: 2.870700 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.118500 ms MarkObjects: 2.537600 ms  DeleteObjects: 0.016800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002465 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
-Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (739ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (274ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (168ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.5 MB.
-System memory in use after: 108.7 MB.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.2 MB.
+System memory in use after: 105.4 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2818.
-Total: 4.046300 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.088400 ms MarkObjects: 3.734900 ms  DeleteObjects: 0.020600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2806.
+Total: 3.063600 ms (FindLiveObjects: 0.213400 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.751000 ms  DeleteObjects: 0.015200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1787,336 +197,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 3.197121 seconds.
+  path: Assets/Game/Scriptable Object
+  artifactKey: Guid(a436ebad30ee05c41b6470c698d184cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scriptable Object using Guid(a436ebad30ee05c41b6470c698d184cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea32fc612a23dabeb5d4ed28b781d707') in 0.009223 seconds 
+  Import took 0.012222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.584266 seconds.
+  path: Assets/Game/Scriptable Object/Player
+  artifactKey: Guid(0b836171bf21b084a8b803beaad07987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scriptable Object/Player using Guid(0b836171bf21b084a8b803beaad07987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f718ae73a03cbfcf74d0bc6162d18544') in 0.007993 seconds 
+  Import took 0.011043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073568 seconds.
+  path: Assets/Game/Scriptable Object/Player/Movement data Player.asset
+  artifactKey: Guid(27e3d47c894f80a47961c557c9dd2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scriptable Object/Player/Movement data Player.asset using Guid(27e3d47c894f80a47961c557c9dd2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0aa38918a205f75a903db8a4fddefd') in 0.037868 seconds 
+  Import took 0.041091 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002334 seconds.
+Registered in 0.002400 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
+- Completed reload, in  0.990 seconds
 Domain Reload Profiling:
-	ReloadAssembly (898ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (288ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (305ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.5 MB.
-System memory in use after: 108.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2820.
-Total: 2.979200 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.701000 ms  DeleteObjects: 0.015600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003018 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (753ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (285ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (170ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (184ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.5 MB.
-System memory in use after: 108.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2822.
-Total: 3.036600 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.740800 ms  DeleteObjects: 0.014800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002305 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
-Domain Reload Profiling:
-	ReloadAssembly (902ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (755ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (289ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 108.6 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2824.
-Total: 2.843300 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.079600 ms MarkObjects: 2.527200 ms  DeleteObjects: 0.016200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002391 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
-Domain Reload Profiling:
-	ReloadAssembly (884ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (737ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (281ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.5 MB.
-System memory in use after: 108.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2826.
-Total: 2.709600 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.404400 ms  DeleteObjects: 0.015300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002487 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
-Domain Reload Profiling:
-	ReloadAssembly (885ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (716ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.5 MB.
-System memory in use after: 108.8 MB.
+System memory in use before: 105.3 MB.
+System memory in use after: 105.5 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2829.
-Total: 2.896200 ms (FindLiveObjects: 0.215200 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.578500 ms  DeleteObjects: 0.016300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002272 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
-Domain Reload Profiling:
-	ReloadAssembly (861ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (721ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.6 MB.
-System memory in use after: 108.8 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2831.
-Total: 2.869100 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.560500 ms  DeleteObjects: 0.017700 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2808.
+Total: 3.660700 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.103800 ms MarkObjects: 3.256700 ms  DeleteObjects: 0.019800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2131,49 +280,163 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002303 seconds.
+Registered in 0.003818 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
+- Completed reload, in  1.007 seconds
 Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (753ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (270ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.6 MB.
-System memory in use after: 108.8 MB.
+System memory in use before: 105.3 MB.
+System memory in use after: 105.5 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2833.
-Total: 3.031900 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.083300 ms MarkObjects: 2.725500 ms  DeleteObjects: 0.014900 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2810.
+Total: 3.978600 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.086100 ms MarkObjects: 3.649900 ms  DeleteObjects: 0.019000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002441 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.3 MB.
+System memory in use after: 105.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2812.
+Total: 3.071200 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.102600 ms MarkObjects: 2.727800 ms  DeleteObjects: 0.020300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.2 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2814.
+Total: 2.769500 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.444700 ms  DeleteObjects: 0.014900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2187,115 +450,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 481.319027 seconds.
-  path: Assets/Finish.cs
-  artifactKey: Guid(18b69127a6c351e4f92cd8dae35fa296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Finish.cs using Guid(18b69127a6c351e4f92cd8dae35fa296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d3f15bae658d7e9c8d5a865a0d9a98') in 0.019956 seconds 
-  Import took 0.023302 seconds .
+  Time since last request: 94.930440 seconds.
+  path: Assets/Game/Scriptable Object/Player/Movement data Player.asset
+  artifactKey: Guid(27e3d47c894f80a47961c557c9dd2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scriptable Object/Player/Movement data Player.asset using Guid(27e3d47c894f80a47961c557c9dd2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8ab2b966ca8685c96d01f97aa78cd9') in 0.014959 seconds 
+  Import took 0.019243 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002446 seconds.
+Registered in 0.002384 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Domain Reload Profiling:
-	ReloadAssembly (945ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (788ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (280ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.5 MB.
-System memory in use after: 108.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2835.
-Total: 3.193200 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.900100 ms  DeleteObjects: 0.017900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002461 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
+- Completed reload, in  1.157 seconds
 Domain Reload Profiling:
-	ReloadAssembly (876ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1158ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (728ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1013ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
+			SetupTypeCache (268ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (469ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.6 MB.
-System memory in use after: 108.8 MB.
+System memory in use before: 105.3 MB.
+System memory in use after: 105.5 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2837.
-Total: 2.878500 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.557100 ms  DeleteObjects: 0.016500 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2816.
+Total: 2.988900 ms (FindLiveObjects: 0.187400 ms CreateObjectMapping: 0.118900 ms MarkObjects: 2.662100 ms  DeleteObjects: 0.019200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
